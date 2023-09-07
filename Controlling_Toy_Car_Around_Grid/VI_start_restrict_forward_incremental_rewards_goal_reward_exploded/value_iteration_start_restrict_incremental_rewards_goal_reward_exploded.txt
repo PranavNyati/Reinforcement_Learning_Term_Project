@@ -1,0 +1,432 @@
+State: (1, 1, 'N'), Optimal Value: 242.119702
+State: (1, 1, 'N'), Optimal Action: 2
+
+State: (1, 1, 'S'), Optimal Value: 269.333067
+State: (1, 1, 'S'), Optimal Action: 1
+
+State: (1, 1, 'W'), Optimal Value: 254.866407
+State: (1, 1, 'W'), Optimal Action: 3
+
+State: (1, 1, 'E'), Optimal Value: 255.915475
+State: (1, 1, 'E'), Optimal Action: 1
+
+State: (2, 1, 'N'), Optimal Value: 255.915475
+State: (2, 1, 'N'), Optimal Action: 2
+
+State: (2, 1, 'S'), Optimal Value: 255.915475
+State: (2, 1, 'S'), Optimal Action: 3
+
+State: (2, 1, 'W'), Optimal Value: 265.123087
+State: (2, 1, 'W'), Optimal Action: 1
+
+State: (2, 1, 'E'), Optimal Value: 270.437341
+State: (2, 1, 'E'), Optimal Action: 1
+
+State: (3, 1, 'N'), Optimal Value: 270.437341
+State: (3, 1, 'N'), Optimal Action: 2
+
+State: (3, 1, 'S'), Optimal Value: 270.437341
+State: (3, 1, 'S'), Optimal Action: 3
+
+State: (3, 1, 'W'), Optimal Value: 255.915475
+State: (3, 1, 'W'), Optimal Action: 2
+
+State: (3, 1, 'E'), Optimal Value: 285.723516
+State: (3, 1, 'E'), Optimal Action: 1
+
+State: (4, 1, 'N'), Optimal Value: 285.723516
+State: (4, 1, 'N'), Optimal Action: 2
+
+State: (4, 1, 'S'), Optimal Value: 285.723516
+State: (4, 1, 'S'), Optimal Action: 3
+
+State: (4, 1, 'W'), Optimal Value: 270.437341
+State: (4, 1, 'W'), Optimal Action: 2
+
+State: (4, 1, 'E'), Optimal Value: 301.814234
+State: (4, 1, 'E'), Optimal Action: 1
+
+State: (5, 1, 'N'), Optimal Value: 265.814234
+State: (5, 1, 'N'), Optimal Action: 2
+
+State: (5, 1, 'S'), Optimal Value: 265.814234
+State: (5, 1, 'S'), Optimal Action: 3
+
+State: (5, 1, 'W'), Optimal Value: 255.915475
+State: (5, 1, 'W'), Optimal Action: 1
+
+State: (5, 1, 'E'), Optimal Value: 280.857088
+State: (5, 1, 'E'), Optimal Action: 1
+
+State: (6, 1, 'N'), Optimal Value: 280.857088
+State: (6, 1, 'N'), Optimal Action: 2
+
+State: (6, 1, 'S'), Optimal Value: 280.857088
+State: (6, 1, 'S'), Optimal Action: 3
+
+State: (6, 1, 'W'), Optimal Value: 278.119702
+State: (6, 1, 'W'), Optimal Action: 1
+
+State: (6, 1, 'E'), Optimal Value: 296.691770
+State: (6, 1, 'E'), Optimal Action: 1
+
+State: (7, 1, 'N'), Optimal Value: 296.691770
+State: (7, 1, 'N'), Optimal Action: 2
+
+State: (7, 1, 'S'), Optimal Value: 296.691770
+State: (7, 1, 'S'), Optimal Action: 3
+
+State: (7, 1, 'W'), Optimal Value: 280.857088
+State: (7, 1, 'W'), Optimal Action: 2
+
+State: (7, 1, 'E'), Optimal Value: 313.359757
+State: (7, 1, 'E'), Optimal Action: 1
+
+State: (8, 1, 'N'), Optimal Value: 313.359757
+State: (8, 1, 'N'), Optimal Action: 2
+
+State: (8, 1, 'S'), Optimal Value: 313.359757
+State: (8, 1, 'S'), Optimal Action: 3
+
+State: (8, 1, 'W'), Optimal Value: 296.691770
+State: (8, 1, 'W'), Optimal Action: 2
+
+State: (8, 1, 'E'), Optimal Value: 330.905007
+State: (8, 1, 'E'), Optimal Action: 1
+
+State: (9, 1, 'N'), Optimal Value: 330.905007
+State: (9, 1, 'N'), Optimal Action: 2
+
+State: (9, 1, 'S'), Optimal Value: 330.905007
+State: (9, 1, 'S'), Optimal Action: 3
+
+State: (9, 1, 'W'), Optimal Value: 313.359757
+State: (9, 1, 'W'), Optimal Action: 2
+
+State: (9, 1, 'E'), Optimal Value: 349.373691
+State: (9, 1, 'E'), Optimal Action: 1
+
+State: (10, 1, 'N'), Optimal Value: 301.373691
+State: (10, 1, 'N'), Optimal Action: 2
+
+State: (10, 1, 'S'), Optimal Value: 336.092739
+State: (10, 1, 'S'), Optimal Action: 1
+
+State: (10, 1, 'W'), Optimal Value: 318.288102
+State: (10, 1, 'W'), Optimal Action: 3
+
+State: (10, 1, 'E'), Optimal Value: 318.288102
+State: (10, 1, 'E'), Optimal Action: 2
+
+State: (1, 10, 'N'), Optimal Value: 340.624874
+State: (1, 10, 'N'), Optimal Action: 1
+
+State: (1, 10, 'S'), Optimal Value: 422.752850
+State: (1, 10, 'S'), Optimal Action: 3
+
+State: (1, 10, 'W'), Optimal Value: 400.615208
+State: (1, 10, 'W'), Optimal Action: 3
+
+State: (1, 10, 'E'), Optimal Value: 446.055631
+State: (1, 10, 'E'), Optimal Action: 1
+
+State: (2, 10, 'N'), Optimal Value: 496.405137
+State: (2, 10, 'N'), Optimal Action: 3
+
+State: (2, 10, 'S'), Optimal Value: 496.405137
+State: (2, 10, 'S'), Optimal Action: 2
+
+State: (2, 10, 'W'), Optimal Value: 523.584354
+State: (2, 10, 'W'), Optimal Action: 1
+
+State: (2, 10, 'E'), Optimal Value: 470.584874
+State: (2, 10, 'E'), Optimal Action: 2
+
+State: (3, 10, 'N'), Optimal Value: 470.584874
+State: (3, 10, 'N'), Optimal Action: 3
+
+State: (3, 10, 'S'), Optimal Value: 470.584874
+State: (3, 10, 'S'), Optimal Action: 2
+
+State: (3, 10, 'W'), Optimal Value: 496.405137
+State: (3, 10, 'W'), Optimal Action: 1
+
+State: (3, 10, 'E'), Optimal Value: 467.391230
+State: (3, 10, 'E'), Optimal Action: 1
+
+State: (4, 10, 'N'), Optimal Value: 467.391230
+State: (4, 10, 'N'), Optimal Action: 2
+
+State: (4, 10, 'S'), Optimal Value: 467.391230
+State: (4, 10, 'S'), Optimal Action: 3
+
+State: (4, 10, 'W'), Optimal Value: 470.584874
+State: (4, 10, 'W'), Optimal Action: 1
+
+State: (4, 10, 'E'), Optimal Value: 493.043399
+State: (4, 10, 'E'), Optimal Action: 1
+
+State: (5, 10, 'N'), Optimal Value: 422.752850
+State: (5, 10, 'N'), Optimal Action: 3
+
+State: (5, 10, 'S'), Optimal Value: 422.752850
+State: (5, 10, 'S'), Optimal Action: 2
+
+State: (5, 10, 'W'), Optimal Value: 446.055631
+State: (5, 10, 'W'), Optimal Action: 1
+
+State: (5, 10, 'E'), Optimal Value: 431.624637
+State: (5, 10, 'E'), Optimal Action: 1
+
+State: (6, 10, 'N'), Optimal Value: 480.415208
+State: (6, 10, 'N'), Optimal Action: 3
+
+State: (6, 10, 'S'), Optimal Value: 480.415208
+State: (6, 10, 'S'), Optimal Action: 2
+
+State: (6, 10, 'W'), Optimal Value: 506.752850
+State: (6, 10, 'W'), Optimal Action: 1
+
+State: (6, 10, 'E'), Optimal Value: 455.394354
+State: (6, 10, 'E'), Optimal Action: 2
+
+State: (7, 10, 'N'), Optimal Value: 455.394354
+State: (7, 10, 'N'), Optimal Action: 3
+
+State: (7, 10, 'S'), Optimal Value: 455.394354
+State: (7, 10, 'S'), Optimal Action: 2
+
+State: (7, 10, 'W'), Optimal Value: 480.415208
+State: (7, 10, 'W'), Optimal Action: 1
+
+State: (7, 10, 'E'), Optimal Value: 431.624637
+State: (7, 10, 'E'), Optimal Action: 2
+
+State: (8, 10, 'N'), Optimal Value: 431.624637
+State: (8, 10, 'N'), Optimal Action: 3
+
+State: (8, 10, 'S'), Optimal Value: 431.624637
+State: (8, 10, 'S'), Optimal Action: 2
+
+State: (8, 10, 'W'), Optimal Value: 455.394354
+State: (8, 10, 'W'), Optimal Action: 1
+
+State: (8, 10, 'E'), Optimal Value: 409.043399
+State: (8, 10, 'E'), Optimal Action: 2
+
+State: (9, 10, 'N'), Optimal Value: 409.043399
+State: (9, 10, 'N'), Optimal Action: 3
+
+State: (9, 10, 'S'), Optimal Value: 409.043399
+State: (9, 10, 'S'), Optimal Action: 2
+
+State: (9, 10, 'W'), Optimal Value: 431.624637
+State: (9, 10, 'W'), Optimal Action: 1
+
+State: (9, 10, 'E'), Optimal Value: 419.851086
+State: (9, 10, 'E'), Optimal Action: 1
+
+State: (10, 10, 'N'), Optimal Value: 387.591230
+State: (10, 10, 'N'), Optimal Action: 3
+
+State: (10, 10, 'S'), Optimal Value: 387.591230
+State: (10, 10, 'S'), Optimal Action: 2
+
+State: (10, 10, 'W'), Optimal Value: 409.043399
+State: (10, 10, 'W'), Optimal Action: 1
+
+State: (10, 10, 'E'), Optimal Value: 367.211669
+State: (10, 10, 'E'), Optimal Action: 2
+
+State: (1, 2, 'N'), Optimal Value: 254.866407
+State: (1, 2, 'N'), Optimal Action: 2
+
+State: (1, 2, 'S'), Optimal Value: 284.561122
+State: (1, 2, 'S'), Optimal Action: 1
+
+State: (1, 2, 'W'), Optimal Value: 269.333067
+State: (1, 2, 'W'), Optimal Action: 3
+
+State: (1, 2, 'E'), Optimal Value: 269.333067
+State: (1, 2, 'E'), Optimal Action: 2
+
+State: (1, 3, 'N'), Optimal Value: 269.333067
+State: (1, 3, 'N'), Optimal Action: 2
+
+State: (1, 3, 'S'), Optimal Value: 300.590753
+State: (1, 3, 'S'), Optimal Action: 1
+
+State: (1, 3, 'W'), Optimal Value: 284.561122
+State: (1, 3, 'W'), Optimal Action: 3
+
+State: (1, 3, 'E'), Optimal Value: 284.561122
+State: (1, 3, 'E'), Optimal Action: 2
+
+State: (1, 4, 'N'), Optimal Value: 284.561122
+State: (1, 4, 'N'), Optimal Action: 2
+
+State: (1, 4, 'S'), Optimal Value: 317.463950
+State: (1, 4, 'S'), Optimal Action: 1
+
+State: (1, 4, 'W'), Optimal Value: 300.590753
+State: (1, 4, 'W'), Optimal Action: 3
+
+State: (1, 4, 'E'), Optimal Value: 300.590753
+State: (1, 4, 'E'), Optimal Action: 2
+
+State: (1, 5, 'N'), Optimal Value: 289.190753
+State: (1, 5, 'N'), Optimal Action: 2
+
+State: (1, 5, 'S'), Optimal Value: 322.593631
+State: (1, 5, 'S'), Optimal Action: 1
+
+State: (1, 5, 'W'), Optimal Value: 305.463950
+State: (1, 5, 'W'), Optimal Action: 3
+
+State: (1, 5, 'E'), Optimal Value: 305.463950
+State: (1, 5, 'E'), Optimal Action: 2
+
+State: (1, 6, 'N'), Optimal Value: 305.463950
+State: (1, 6, 'N'), Optimal Action: 2
+
+State: (1, 6, 'S'), Optimal Value: 340.624874
+State: (1, 6, 'S'), Optimal Action: 1
+
+State: (1, 6, 'W'), Optimal Value: 322.593631
+State: (1, 6, 'W'), Optimal Action: 3
+
+State: (1, 6, 'E'), Optimal Value: 322.593631
+State: (1, 6, 'E'), Optimal Action: 2
+
+State: (1, 7, 'N'), Optimal Value: 322.593631
+State: (1, 7, 'N'), Optimal Action: 2
+
+State: (1, 7, 'S'), Optimal Value: 359.605137
+State: (1, 7, 'S'), Optimal Action: 1
+
+State: (1, 7, 'W'), Optimal Value: 340.624874
+State: (1, 7, 'W'), Optimal Action: 3
+
+State: (1, 7, 'E'), Optimal Value: 340.624874
+State: (1, 7, 'E'), Optimal Action: 2
+
+State: (1, 8, 'N'), Optimal Value: 340.624874
+State: (1, 8, 'N'), Optimal Action: 2
+
+State: (1, 8, 'S'), Optimal Value: 379.584354
+State: (1, 8, 'S'), Optimal Action: 1
+
+State: (1, 8, 'W'), Optimal Value: 359.605137
+State: (1, 8, 'W'), Optimal Action: 3
+
+State: (1, 8, 'E'), Optimal Value: 359.605137
+State: (1, 8, 'E'), Optimal Action: 2
+
+State: (1, 9, 'N'), Optimal Value: 359.605137
+State: (1, 9, 'N'), Optimal Action: 2
+
+State: (1, 9, 'S'), Optimal Value: 400.615208
+State: (1, 9, 'S'), Optimal Action: 1
+
+State: (1, 9, 'W'), Optimal Value: 379.584354
+State: (1, 9, 'W'), Optimal Action: 3
+
+State: (1, 9, 'E'), Optimal Value: 379.584354
+State: (1, 9, 'E'), Optimal Action: 2
+
+State: (10, 2, 'N'), Optimal Value: 333.305007
+State: (10, 2, 'N'), Optimal Action: 1
+
+State: (10, 2, 'S'), Optimal Value: 354.834560
+State: (10, 2, 'S'), Optimal Action: 1
+
+State: (10, 2, 'W'), Optimal Value: 336.092739
+State: (10, 2, 'W'), Optimal Action: 3
+
+State: (10, 2, 'E'), Optimal Value: 336.092739
+State: (10, 2, 'E'), Optimal Action: 2
+
+State: (10, 3, 'N'), Optimal Value: 336.092739
+State: (10, 3, 'N'), Optimal Action: 2
+
+State: (10, 3, 'S'), Optimal Value: 374.562694
+State: (10, 3, 'S'), Optimal Action: 1
+
+State: (10, 3, 'W'), Optimal Value: 354.834560
+State: (10, 3, 'W'), Optimal Action: 3
+
+State: (10, 3, 'E'), Optimal Value: 354.834560
+State: (10, 3, 'E'), Optimal Action: 2
+
+State: (10, 4, 'N'), Optimal Value: 354.834560
+State: (10, 4, 'N'), Optimal Action: 2
+
+State: (10, 4, 'S'), Optimal Value: 395.329151
+State: (10, 4, 'S'), Optimal Action: 1
+
+State: (10, 4, 'W'), Optimal Value: 374.562694
+State: (10, 4, 'W'), Optimal Action: 3
+
+State: (10, 4, 'E'), Optimal Value: 374.562694
+State: (10, 4, 'E'), Optimal Action: 2
+
+State: (10, 5, 'N'), Optimal Value: 336.092739
+State: (10, 5, 'N'), Optimal Action: 1
+
+State: (10, 5, 'S'), Optimal Value: 354.030685
+State: (10, 5, 'S'), Optimal Action: 1
+
+State: (10, 5, 'W'), Optimal Value: 335.329151
+State: (10, 5, 'W'), Optimal Action: 3
+
+State: (10, 5, 'E'), Optimal Value: 335.329151
+State: (10, 5, 'E'), Optimal Action: 2
+
+State: (10, 6, 'N'), Optimal Value: 378.288102
+State: (10, 6, 'N'), Optimal Action: 1
+
+State: (10, 6, 'S'), Optimal Value: 373.716517
+State: (10, 6, 'S'), Optimal Action: 1
+
+State: (10, 6, 'W'), Optimal Value: 358.373691
+State: (10, 6, 'W'), Optimal Action: 2
+
+State: (10, 6, 'E'), Optimal Value: 358.373691
+State: (10, 6, 'E'), Optimal Action: 3
+
+State: (10, 7, 'N'), Optimal Value: 358.373691
+State: (10, 7, 'N'), Optimal Action: 1
+
+State: (10, 7, 'S'), Optimal Value: 394.438438
+State: (10, 7, 'S'), Optimal Action: 1
+
+State: (10, 7, 'W'), Optimal Value: 373.716517
+State: (10, 7, 'W'), Optimal Action: 3
+
+State: (10, 7, 'E'), Optimal Value: 373.716517
+State: (10, 7, 'E'), Optimal Action: 2
+
+State: (10, 8, 'N'), Optimal Value: 373.716517
+State: (10, 8, 'N'), Optimal Action: 2
+
+State: (10, 8, 'S'), Optimal Value: 416.251086
+State: (10, 8, 'S'), Optimal Action: 1
+
+State: (10, 8, 'W'), Optimal Value: 394.438438
+State: (10, 8, 'W'), Optimal Action: 3
+
+State: (10, 8, 'E'), Optimal Value: 394.438438
+State: (10, 8, 'E'), Optimal Action: 2
+
+State: (10, 9, 'N'), Optimal Value: 394.438438
+State: (10, 9, 'N'), Optimal Action: 2
+
+State: (10, 9, 'S'), Optimal Value: 439.211669
+State: (10, 9, 'S'), Optimal Action: 1
+
+State: (10, 9, 'W'), Optimal Value: 416.251086
+State: (10, 9, 'W'), Optimal Action: 3
+
+State: (10, 9, 'E'), Optimal Value: 416.251086
+State: (10, 9, 'E'), Optimal Action: 2
+
