@@ -2,7 +2,8 @@ import pygame
 import math
 import time
 
-class Environment:
+class Environment_Control:
+    
     def __init__(self, grid_size=18, cell_size=50):
         
         # Environment parameters
@@ -19,7 +20,7 @@ class Environment:
         self.start_state = self.state
         
         #define actions
-        self.actions = {1: 'f', 2: 'r', 3: 'l'}
+        self.actions = {0: 'f', 1: 'r', 2: 'l'}
         self.directions = ['N', 'S', 'W', 'E']
         # self.directions_dict = {0:'N', 1:'S', 2:'W', 3:'E'}
         
@@ -44,29 +45,21 @@ class Environment:
         
         # goal is to come back to the starting point
         self.goal = (1, grid_size - 2)
-        self.landmarks = [(1, (grid_size-2)//2), (1, 1), ((grid_size-2)//2, 1), (grid_size-2, 1), (grid_size-2, (grid_size-2)//2), (grid_size-2, grid_size-2), ((grid_size-2)//2, grid_size-2)]
-    
+
         #define rewards
         self.rewards = {}
-        self.rewards['hit_wall'] = -10
+        self.rewards['hit_wall'] = -5
         self.rewards['step'] = -1
-        self.rewards['goal'] = 50*self.grid_size
-        self.rewards['landmark'] = [self.grid_size, 2*self.grid_size, 3*self.grid_size, 4*self.grid_size, 5*self.grid_size, 6*self.grid_size, 7*self.grid_size]
+        self.rewards['goal'] = 20
+        self.rewards['forward'] = 10
         
-        
-        # self.corner_states = [(1, 1), (grid_size - 2, 1), (1, grid_size - 2), (grid_size - 2, grid_size - 2)]
-        # self.corners_visited = {}
-        # for corner in self.corner_states:
-        #     self.corners_visited[corner] = False
-                
-        # self.screen = pygame.display.set_mode(self.window_size)
-        # pygame.display.set_caption('RL Car Environment Visualization')
-        
+        # other parameters
+        self.screen = None
         self.last_action = 'start'
         self.last_reward = 0
         self.last_done = False
         self.num_steps = 0
-        self.max_steps = 200
+        self.max_steps = self.grid_size**2
 
     def reset(self):
         self.car_x, self.car_y = 1, self.grid_size - 2
@@ -76,8 +69,6 @@ class Environment:
         self.num_steps = 0
         self.state_value_func = self.init_state_value_function()
         self.last_reward = 0
-        # for corner in self.corner_states:
-        #     self.corners_visited[corner] = False
 
     def init_state_value_function(self):
         state_value_dict = {}
@@ -96,174 +87,46 @@ class Environment:
     def is_on_path(self, car_x, car_y):
         return (((car_y == 1 or car_y == self.grid_size-2) and (car_x <= self.grid_size - 2  and car_x >= 1 )) or ((car_x == 1 or car_x == self.grid_size-2) and (car_y <= self.grid_size -2  and car_y >= 1 )))
 
-    # def check_corner_visited(self):
-    #     for corner in self.corners_visited.keys():
-    #         if self.corners_visited[corner] == False:
-    #             return False
-    #     return True
-
-    # def get_next_state_and_reward(self, state, action_no):
-        
-    #     next_reward = self.rewards['step']
-    #     next_state = None
-    #     hit_wall = False
-    #     prev_x = state[0]
-    #     prev_y = state[1]
-    #     done = False
-        
-    #     # isOnPath = self.is_on_path(state[0], state[1])
-        
-    #     if (state[0], state[1]) != self.goal or state == self.start_state:
-    #         if self.actions[action_no] == 'f':
-    #             if (state[2] == 'N'):
-    #                 if (self.is_on_path(state[0], state[1] - 1) == False):
-    #                     hit_wall = True
-    #                     next_state = (state[0], state[1], state[2])
-    #                 else:
-    #                     # prev_y = state[1]
-    #                     next_state = (state[0], state[1] - 1, state[2])
-                        
-    #             elif (state[2] == 'S'):
-    #                 if (self.is_on_path(state[0], state[1] + 1) == False):
-    #                     hit_wall = True
-    #                     next_state = (state[0], state[1], state[2])
-    #                 else:
-    #                     next_state = (state[0], state[1] + 1, state[2])
-                        
-    #             elif (state[2] == 'W'):
-    #                 if (self.is_on_path(state[0]-1, state[1]) == False):
-    #                     hit_wall = True
-    #                     next_state = (state[0], state[1], state[2])
-    #                 else:
-    #                     next_state = (state[0] - 1, state[1], state[2])
-                
-    #             elif (state[2] == 'E'):
-    #                 if (self.is_on_path(state[0]+1, state[1]) == False):
-    #                     hit_wall = True
-    #                     next_state = (state[0], state[1], state[2])
-    #                 else:
-    #                     next_state = (state[0] + 1, state[1], state[2])
-                        
-    #             # elif (state[2] == 'S'):
-    #             #     if (self.car_y + 1 > self.grid_size - 2):
-    #             #         hit_wall = True
-    #             #     prev_y = state[1]
-    #             #     next_state = (state[0], min(state[1] + 1, self.grid_size - 2), state[2])
-                    
-    #         elif self.actions[action_no] == 'r':
-                
-    #             if state[2] == 'N':
-    #                 next_state = (state[0], state[1], 'E')
-    #             elif state[2] == 'S':
-    #                 next_state = (state[0], state[1], 'W')
-    #             elif state[2] == 'W':
-    #                 next_state = (state[0], state[1], 'N')
-    #             elif state[2] == 'E':
-    #                 next_state = (state[0], state[1], 'S')
-                    
-    #         elif self.actions[action_no] == 'l':
-
-    #             if state[2] == 'N':
-    #                 next_state = (state[0], state[1], 'W')
-    #             elif state[2] == 'S':
-    #                 next_state = (state[0], state[1], 'E')
-    #             elif state[2] == 'W':
-    #                 next_state = (state[0], state[1], 'S')
-    #             elif state[2] == 'E':
-    #                 next_state = (state[0], state[1], 'N')
-                    
-    #     elif (state[0], state[1]) == self.goal and state[2] != 'N':
-    #         next_state = state
-                
-    #     # if (next_state[0], next_state[1]) in self.corner_states and self.corners_visited[(next_state[0], next_state[1])] == False:
-    #     #     self.corners_visited[(next_state[0], next_state[1])] = True
-                
-    #     # rewards for the particular state and action
-    #     # if (next_state[0], next_state[1]) == self.goal and (prev_x, prev_y) != self.goal and self.check_corner_visited() == True:
-    #     #     done = True
-    #     #     # print("Goal reached!")
-    #     #     next_reward = self.rewards['goal_reward']
-    #     # elif (next_state[0], next_state[1]) == self.sub_goal and (prev_x, prev_y) != self.sub_goal:
-    #     #     next_reward = self.rewards['sub_goal_reward']
-    #     # elif hit_wall:
-    #     #     next_reward = self.rewards['hit_wall_reward']  
-    #     # else:
-    #     #     next_reward = self.rewards['step_reward']
-            
-        
-    #     # REWARDS FOR ALL POSSIBLE STATE ACITON PAIRS:
-        
-    #     # Reward for reaching the goal
-    #     if (next_state[0], next_state[1]) == self.goal and (prev_x, prev_y) != self.goal and (prev_x, prev_y) == (self.goal[0] + 1, self.goal[1]):
-    #         done = True
-    #         print("Goal reached!")
-    #         next_reward = next_reward + self.rewards['goal']
-            
-    #     # Reward for reaching the sub-goals/landmarks
-    #     elif (next_state[0], next_state[1]) in self.landmarks and (prev_x, prev_y) != (next_state[0], next_state[1]):
-    #         next_reward = next_reward + self.rewards['landmark'][self.landmarks.index((next_state[0], next_state[1]))]
-            
-    #         # if (next_state[0], next_state[1]) != self.landmarks[6]:
-    #         #     next_reward = next_reward + self.rewards['landmark'][self.landmarks.index((next_state[0], next_state[1]))]
-    #         # else:
-    #         #     if (prev_x, prev_y) == (self.landmarks[6][0] - 1, self.landmarks[6][1]):
-    #         #         next_reward = next_reward + self.rewards['landmark'][self.landmarks.index((next_state[0], next_state[1]))]
-            
-            
-    #     # Reward for hitting the wall
-    #     elif hit_wall:
-    #         next_reward = next_reward + self.rewards['hit_wall']
-            
-            
-    #     return next_state, next_reward, done
-     
 
     def get_next_state_and_reward(self, state, action_no):
         
-        next_reward = self.rewards['step']
+        next_reward = 0
         next_state = None
         hit_wall = False
         prev_x = state[0]
         prev_y = state[1]
         done = False
         
-        # isOnPath = self.is_on_path(state[0], state[1])
         
         if self.actions[action_no] == 'f':
             if (state[2] == 'N'):
                 if (self.is_on_path(state[0], state[1] - 1) == False):
                     hit_wall = True
-                    next_state = (state[0], state[1], state[2])
+                    next_state = state
                 else:
-                    # prev_y = state[1]
                     next_state = (state[0], state[1] - 1, state[2])
                     
             elif (state[2] == 'S'):
                 if (self.is_on_path(state[0], state[1] + 1) == False):
                     hit_wall = True
-                    next_state = (state[0], state[1], state[2])
+                    next_state = state
                 else:
                     next_state = (state[0], state[1] + 1, state[2])
                     
             elif (state[2] == 'W'):
                 if (self.is_on_path(state[0]-1, state[1]) == False):
                     hit_wall = True
-                    next_state = (state[0], state[1], state[2])
+                    next_state = state
                 else:
                     next_state = (state[0] - 1, state[1], state[2])
             
             elif (state[2] == 'E'):
                 if (self.is_on_path(state[0]+1, state[1]) == False):
                     hit_wall = True
-                    next_state = (state[0], state[1], state[2])
+                    next_state = state
                 else:
                     next_state = (state[0] + 1, state[1], state[2])
                     
-            # elif (state[2] == 'S'):
-            #     if (self.car_y + 1 > self.grid_size - 2):
-            #         hit_wall = True
-            #     prev_y = state[1]
-            #     next_state = (state[0], min(state[1] + 1, self.grid_size - 2), state[2])
                 
         elif self.actions[action_no] == 'r':
             
@@ -287,27 +150,61 @@ class Environment:
             elif state[2] == 'E':
                 next_state = (state[0], state[1], 'N')
                 
-        # if (next_state[0], next_state[1]) in self.corner_states and self.corners_visited[(next_state[0], next_state[1])] == False:
-        #     self.corners_visited[(next_state[0], next_state[1])] = True
         
         # REWARDS FOR ALL POSSIBLE STATE ACITON PAIRS:
         
         # Reward for reaching the goal
         if (next_state[0], next_state[1]) == self.goal and (prev_x, prev_y) == (self.goal[0] + 1, self.goal[1]):
             done = True
-            print("Goal reached!")
-            next_reward = next_reward + self.rewards['goal']
-            
-        # Reward for reaching the sub-goals/landmarks
-        elif (next_state[0], next_state[1]) in self.landmarks and (prev_x, prev_y) != (next_state[0], next_state[1]):
-            next_reward = next_reward + self.rewards['landmark'][self.landmarks.index((next_state[0], next_state[1]))]
-            
-        # Reward for hitting the wall
+            # print("Goal reached!")
+            next_reward =  self.rewards['goal']
+
+        # Reward for moving forward in some direction
+        elif (next_state[0], next_state[1]) != (prev_x, prev_y):
+            next_reward = self.rewards['forward']
+        
         elif hit_wall:
-            next_reward = next_reward + self.rewards['hit_wall']
-            
+            next_reward = self.rewards['hit_wall']
+        
+        else:
+            next_reward = self.rewards['step']
+              
+        
         return next_state, next_reward, done
-                
+              
+    def policy_simulation(self, start_state, policy, refresh_rate=0.5):
+        
+        self.screen = pygame.display.set_mode(self.window_size)
+        pygame.display.set_caption('RL Car Environment Visualization')
+        
+        self.reset()
+        self.state = start_state
+        self.render()
+        done_flag = False
+        ctr = 0
+        
+        while(ctr < self.max_steps):
+            
+            next_state, reward, done = self.get_next_state_and_reward(self.state, policy[self.state])
+            self.state = next_state
+            self.last_action = self.actions[policy[self.state]]
+            self.last_reward = reward
+            self.last_done = done
+            
+            self._update_visualization()
+            time.sleep(refresh_rate)  # Delay for visualization 
+            self.render() 
+            ctr += 1
+            
+            if done:
+                done_flag = True
+                print("Goal reached successfully within {} steps!".format(ctr))
+                break
+            
+        if done_flag == False:
+            print("Goal could not reached using the given policy within {} steps (max steps allowed)!".format(ctr))
+            
+
 
     def step(self, action):
         self.last_action = action
@@ -398,16 +295,16 @@ class Environment:
 
     def render(self):
         self._update_visualization()
-
+        
     def _update_visualization(self):
         self.screen.fill((255, 255, 255))
         for row in range(self.grid_size):
             for col in range(self.grid_size):
                 pygame.draw.rect(self.screen, (230, 230, 250), (col * self.cell_size, row * self.cell_size, self.cell_size, self.cell_size), 1)
                 
-                # To know the reference point (0, 0) => filled with red
-                if (row == 0 and col == 0):
-                    pygame.draw.rect(self.screen, (255, 0, 0), (col * self.cell_size, row * self.cell_size, self.cell_size, self.cell_size))
+                # # To know the reference point (0, 0) => filled with red
+                # if (row == 0 and col == 0):
+                #     pygame.draw.rect(self.screen, (255, 0, 0), (col * self.cell_size, row * self.cell_size, self.cell_size, self.cell_size))
                 
                 if ((row == 1 or row == self.grid_size-2) and (col <= self.grid_size - 2  and col >= 1 )) or ((col == 1 or col == self.grid_size-2) and (row <= self.grid_size -2  and row >= 1 )):
                     
@@ -418,21 +315,21 @@ class Environment:
                     else:
                         pygame.draw.rect(self.screen, (139, 69, 19), (col * self.cell_size, row * self.cell_size, self.cell_size, self.cell_size))
 
-        car_center = (self.car_x * self.cell_size + self.cell_size // 2, self.car_y * self.cell_size + self.cell_size // 2)
+        car_center = (self.state[0] * self.cell_size + self.cell_size // 2, self.state[1] * self.cell_size + self.cell_size // 2)
         car_side_length = self.cell_size // 2
-        if self.car_direction == 'N':
+        if self.state[2] == 'N':
             car_points = [(car_center[0], car_center[1] - car_side_length),
                           (car_center[0] - car_side_length, car_center[1] + car_side_length),
                           (car_center[0] + car_side_length, car_center[1] + car_side_length)]
-        elif self.car_direction == 'S':
+        elif self.state[2] == 'S':
             car_points = [(car_center[0], car_center[1] + car_side_length),
                           (car_center[0] - car_side_length, car_center[1] - car_side_length),
                           (car_center[0] + car_side_length, car_center[1] - car_side_length)]
-        elif self.car_direction == 'W':
+        elif self.state[2] == 'W':
             car_points = [(car_center[0] - car_side_length, car_center[1]),
                           (car_center[0] + car_side_length, car_center[1] - car_side_length),
                           (car_center[0] + car_side_length, car_center[1] + car_side_length)]
-        elif self.car_direction == 'E':
+        elif self.state[2] == 'E':
             car_points = [(car_center[0] + car_side_length, car_center[1]),
                           (car_center[0] - car_side_length, car_center[1] - car_side_length),
                           (car_center[0] - car_side_length, car_center[1] + car_side_length)]
@@ -442,36 +339,11 @@ class Environment:
         # Draw information box
         info_box = pygame.Surface((self.window_size[0], 50))
         info_box.fill((200, 200, 200))
-        info_text = f"State: ({self.car_x}, {self.car_y}, {self.car_direction});  Action: {self.last_action};  Reward: {self.last_reward};  Done: {self.last_done}"
+        info_text = f"State: ({self.state[0]}, {self.state[1]}, {self.state[2]});  Action: {self.last_action};  Reward: {self.last_reward};  Done: {self.last_done}"
         font = pygame.font.Font(None, 24)
         text = font.render(info_text, True, (0, 0, 0))
         info_box.blit(text, (10, 10))
         self.screen.blit(info_box, (0, self.window_size[1] - 50))
 
         pygame.display.flip()
-
-# Initialize Pygame
-# pygame.init()
-
-# # Create environment instance
-# env = Environment()
-
-# # Example of using the environment
-# state = env.reset()
-# env.render()
-# for _ in range(2):
-#     action = 'f'
-#     next_state, reward, done, _ = env.step(action)
-#     env.render()
-
-# next_state, reward, done, _ = env.step('r')
-# env.render()
-
-# for _ in range(100):
-#     action = 'f'
-#     next_state, reward, done, _ = env.step(action)
-#     env.render()
-
-# # Quit Pygame
-# pygame.quit()
 
