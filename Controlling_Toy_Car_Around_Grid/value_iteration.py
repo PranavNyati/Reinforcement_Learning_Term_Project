@@ -1,41 +1,43 @@
 import numpy as np
 import matplotlib.pyplot as plt
 import copy
-
-from myenv import Environment
+import pygame
+from my_env_control import Environment_Control
 
 class Value_Iteration:
     def __init__(self, mdp, gamma):
-        self.mdp = mdp
-        self.gamma = gamma
+        self.mdp = mdp # the MDP environment for which we want to learn the optimal policy
+        self.gamma = gamma # discount factor
         self.final_optimal_value_function = None
         self.final_optimal_policy = None
+        self.deltas = None
 
-    def value_iteration(self, num_iterations = 1000, delta = 0.0001):
+    def value_iteration(self, num_iterations = 1000, prec = 0.0001):
         
-        self.mdp.reset()
-        state_value_func = self.mdp.init_state_value_function()
+        self.mdp.reset() # reset the environment to the start state
+        state_value_func = self.mdp.init_state_value_function() # initialize the state value function to 0 for all states
         optimal_policy_func = {}
+        
+        self.deltas = []
         
         for i in range(num_iterations):
             state_value_func_copy = copy.deepcopy(state_value_func)
             delta = 0.0   
                   
             for state in state_value_func.keys():
-                
-                # we define the environment such that from the start state, the car can only move forward 
-                if (state[0], state[1]) == self.mdp.start:
+                # we define the environment such that from the start state, the car can only move forward (action = 0)
+                if state == self.mdp.start_state:
                     
-                    next_state, next_reward, done = self.mdp.get_next_state_and_reward(state, 1)
+                    next_state, next_reward, done = self.mdp.get_next_state_and_reward(state, 0)
                     value = next_reward + self.gamma * state_value_func_copy[next_state]
                     
                     delta = max(delta, abs(value - state_value_func_copy[state]))
                     state_value_func[state] = value
-                    optimal_policy_func[state] = 1
+                    optimal_policy_func[state] = 0
                     
-                
-                # elif (state[0], state[1]) != self.mdp.goal:
                 else:
+                    
+                    # update the value function for each state by taking the max over all possible actions (using the Bellman optimality equation)
                     
                     max_value = -np.inf
                     
@@ -44,26 +46,24 @@ class Value_Iteration:
                         next_state, next_reward, done = self.mdp.get_next_state_and_reward(state, action)
                         value = next_reward + self.gamma * state_value_func_copy[next_state]
                         
-                        # max_value = max(max_value, value)
                         if (value > max_value):
                             max_value = value
                             optimal_action = action
                         
-                    delta = max(delta, abs(max_value - state_value_func_copy[state]))
+                    delta = max(delta, abs(max_value - state_value_func_copy[state])) # calculate the max change in value function of any state
                     state_value_func[state] = max_value
                     optimal_policy_func[state] = optimal_action
+                    
+            self.deltas.append(delta)
             
-                # elif (state[0], state[1]) == self.mdp.goal and state[2] != 'N':
-                #     optimal_policy_func[state] = 'f'
-            
-            if delta < 0.0001:
+            if delta < prec: # if the max change in value function of any state is less than the precision, we have converged
                 print('Value iteration converged at iteration %d' % (i+1))
                 break    
         
         self.final_optimal_value_function = state_value_func
         self.final_optimal_policy = optimal_policy_func
         
-        return        
+        return  self.final_optimal_value_function, self.final_optimal_policy
     
     def print_optimal_value_function(self, textfile = None):
         
@@ -84,21 +84,20 @@ class Value_Iteration:
                 f.write('\n\n')
             f.close()
         
+        
         state_values = np.zeros((4, self.mdp.grid_size, self.mdp.grid_size), dtype=np.float32)
-        # optimal_actions = np.((4, self.mdp.grid_size, self.mdp.grid_size), dtype=np.int32)
-        #declare a 3D array to store the optimal actions
         optimal_actions = np.ones((4, self.mdp.grid_size, self.mdp.grid_size), dtype=np.int32)
         
         for state in self.final_optimal_value_function.keys():
             state_values[self.mdp.directions.index(state[2]), state[1], state[0]] = self.final_optimal_value_function[state]
             optimal_actions[self.mdp.directions.index(state[2]), state[1], state[0]] = self.final_optimal_policy[state]
             
-        
+        # Plot the optimal state values for each state learnt using Value Iteration
         for i in range(4):
             fig, axs = plt.subplots(1, 1, figsize=(20, 20))
             
             axs.imshow(state_values[i], interpolation='nearest', cmap='hot')
-            axs.set_title('State Values for Direction %s' % self.mdp.directions[i])
+            axs.set_title('VI: State Values for Direction %s' % self.mdp.directions[i])
             axs.set_xlabel('X')
             axs.set_ylabel('Y')
             axs.set_xticks(np.arange(self.mdp.grid_size))
@@ -111,17 +110,17 @@ class Value_Iteration:
                     text = axs.text(col, row, round(state_values[i, row, col], 2), ha="center", va="center", color="blue", fontsize=15)
                     
             # plt.show()
-            plt.savefig('State_values_for_direction_%s.png' % self.mdp.directions[i])
+            plt.savefig('VI_State_values_for_direction_%s.png' % self.mdp.directions[i])
             plt.close()
             
+            
+        # Plot the optimal actions for each state learnt using Value Iteration  
         for i in range(4):
             fig, axs = plt.subplots(1, 1, figsize=(20, 20))
-            
-            # for cmap , let the color be 'white' for all the values
             color_map = np.zeros((self.mdp.grid_size, self.mdp.grid_size), dtype=np.float32)
             
             axs.imshow(optimal_actions[i], interpolation='nearest')
-            axs.set_title('Optimal Actions for Direction %s' % self.mdp.directions[i])
+            axs.set_title('VI: Optimal Actions for Direction %s' % self.mdp.directions[i])
             axs.set_xlabel('X')
             axs.set_ylabel('Y')
             axs.set_xticks(np.arange(self.mdp.grid_size))
@@ -130,44 +129,43 @@ class Value_Iteration:
             axs.set_yticklabels(np.arange(1, self.mdp.grid_size + 1))
             for row in range(self.mdp.grid_size):
                 for col in range(self.mdp.grid_size):
-                    # print("hi: ", " col: ", col, " row: ", row, " i: ", i)
+
                     arrow = ""
                     arrow = self.mdp.directions_actions_mapping[(self.mdp.directions[i], self.mdp.actions[optimal_actions[i, row, col]])]
-                    
                     text = axs.text(col, row, arrow, ha="center", va="center", color="black", fontsize=40)
                     
                     
-            plt.savefig('Optimal_actions_for_direction_%s.png' % self.mdp.directions[i])
+            plt.savefig('VI_Optimal_actions_for_direction_%s.png' % self.mdp.directions[i])
             plt.close()
-                    
             
             
-        
-        # for i in range(4):
-        #     axs[0, i].imshow(state_values[i], cmap='hot', interpolation='nearest')
-        #     axs[0, i].set_title('State Values for Direction %s' % self.mdp.directions[i])
-        #     axs[0, i].set_xlabel('X')
-        #     axs[0, i].set_ylabel('Y')
-        #     axs[0, i].set_xticks(np.arange(self.mdp.grid_size))
-        #     axs[0, i].set_yticks(np.arange(self.mdp.grid_size))
-        #     axs[0, i].set_xticklabels(np.arange(1, self.mdp.grid_size + 1))
-        #     axs[0, i].set_yticklabels(np.arange(1, self.mdp.grid_size + 1))
-        #     for j in range(self.mdp.grid_size):
-        #         for k in range(self.mdp.grid_size):
-        #             text = axs[0, i].text(k, j, round(state_values[i, j, k], 2), ha="center", va="center", color="w")
-        #     plt.show()
-        #     plt.savefig('state_values.png')
-        
+        # Plot how the max delta changes with each iteration
+        plt.figure(figsize=(10, 5))
+        plt.plot(self.deltas)
+        plt.title("VI: Max change in value function of any state across iterations")
+        plt.xlabel("Iteration Number")
+        plt.ylabel("Max change in value function of any state")
+        plt.grid(True)
+        plt.savefig("Convergence of Value Iteration across iterations for gamma = %f_maze_16.png" % self.gamma)  
+        plt.close()
+                          
         return
         
         
 if __name__ == "__main__":
     
-    env = Environment(grid_size=12)
-    vi = Value_Iteration(env, gamma = 0.99)
-    vi.value_iteration()
+    env = Environment_Control(grid_size=16) # initialize the environment
+    vi = Value_Iteration(env, gamma = 0.95) # initialize the Value Iteration algorithm
+    vi.value_iteration(num_iterations = 2000, prec = 0.0001)
     print("Value Iteration Done")
-    file_name = 'value_iteration_start_goal_restrict_incremental_rewards_goal_reward_50x_gamma_99.txt'
+    file_name = 'VI_forward_reward_goal_2x_reward_gamma_1_maze_16.txt'
     vi.print_optimal_value_function(textfile = file_name)
+    
+    # simulate the optimal policy learnt using Value Iteration
+    pygame.init()
+    vi.mdp.policy_simulation(vi.mdp.start_state, vi.final_optimal_policy, refresh_rate=0.1)
+    print("Policy Simulation Done")
+    pygame.quit()
+    
     
     

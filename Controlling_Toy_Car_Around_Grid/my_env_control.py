@@ -4,7 +4,7 @@ import time
 
 class Environment_Control:
     
-    def __init__(self, grid_size=18, cell_size=50):
+    def __init__(self, grid_size=16, cell_size=50):
         
         # Environment parameters
         self.grid_size = grid_size
@@ -22,7 +22,6 @@ class Environment_Control:
         #define actions
         self.actions = {0: 'f', 1: 'r', 2: 'l'}
         self.directions = ['N', 'S', 'W', 'E']
-        # self.directions_dict = {0:'N', 1:'S', 2:'W', 3:'E'}
         
         # direction to action mapping
         self.directions_actions_mapping = {}
@@ -50,8 +49,8 @@ class Environment_Control:
         self.rewards = {}
         self.rewards['hit_wall'] = -5
         self.rewards['step'] = -1
-        self.rewards['goal'] = 20
-        self.rewards['forward'] = 10
+        self.rewards['goal'] = 40
+        self.rewards['forward'] = 20
         
         # other parameters
         self.screen = None
@@ -61,6 +60,7 @@ class Environment_Control:
         self.num_steps = 0
         self.max_steps = self.grid_size**2
 
+    # reset the environment to the start state
     def reset(self):
         self.car_x, self.car_y = 1, self.grid_size - 2
         self.prev_car_x, self.prev_car_y = 1, self.grid_size - 2
@@ -71,6 +71,7 @@ class Environment_Control:
         self.last_reward = 0
 
     def init_state_value_function(self):
+        # initialize the state value function to 0 for all states
         state_value_dict = {}
         for row in [1, self.grid_size-2]:
             for col in range(1, self.grid_size-1):
@@ -84,9 +85,8 @@ class Environment_Control:
         
         return state_value_dict
 
-    def is_on_path(self, car_x, car_y):
+    def is_on_path(self, car_x, car_y): # check if the car is on the track or not (to avoid going off the track)
         return (((car_y == 1 or car_y == self.grid_size-2) and (car_x <= self.grid_size - 2  and car_x >= 1 )) or ((car_x == 1 or car_x == self.grid_size-2) and (car_y <= self.grid_size -2  and car_y >= 1 )))
-
 
     def get_next_state_and_reward(self, state, action_no):
         
@@ -163,15 +163,15 @@ class Environment_Control:
         elif (next_state[0], next_state[1]) != (prev_x, prev_y):
             next_reward = self.rewards['forward']
         
-        elif hit_wall:
+        elif hit_wall: # Reward for hitting the wall (going off the track)
             next_reward = self.rewards['hit_wall']
         
-        else:
+        else: # Reward for taking a turn
             next_reward = self.rewards['step']
               
-        
         return next_state, next_reward, done
               
+    # function to simulate a given deterministic policy
     def policy_simulation(self, start_state, policy, refresh_rate=0.5):
         
         self.screen = pygame.display.set_mode(self.window_size)
@@ -203,95 +203,7 @@ class Environment_Control:
             
         if done_flag == False:
             print("Goal could not reached using the given policy within {} steps (max steps allowed)!".format(ctr))
-            
 
-
-    def step(self, action):
-        self.last_action = action
-        hit_wall = False
-        if action == 'f':
-            if self.car_direction == 'N':
-                if (self.car_y - 1 < 1):
-                    hit_wall = True
-                self.prev_car_y = self.car_y
-                self.car_y = max(self.car_y - 1, 1)
-                
-                
-            elif self.car_direction == 'S':
-                if (self.car_y + 1 > self.grid_size - 2):
-                    hit_wall = True
-                self.prev_car_y = self.car_y
-                self.car_y = min(self.car_y + 1, self.grid_size - 2)
-                
-            elif self.car_direction == 'W':
-                if (self.car_x - 1 < 1):
-                    hit_wall = True
-                self.prev_car_x = self.car_x
-                self.car_x = max(self.car_x - 1, 1)
-                
-            elif self.car_direction == 'E':
-                if (self.car_x + 1 > self.grid_size - 2):
-                    hit_wall = True
-                self.prev_car_x = self.car_x
-                self.car_x = min(self.car_x + 1, self.grid_size - 2)
-
-        elif action == 'r':
-            self.prev_car_x = self.car_x
-            self.prev_car_y = self.car_y
-            
-            if self.car_direction == 'N':
-                self.car_direction = 'E'
-            elif self.car_direction == 'S':
-                self.car_direction = 'W'
-            elif self.car_direction == 'W':
-                self.car_direction = 'N'
-            elif self.car_direction == 'E':
-                self.car_direction = 'S'
-        
-        elif action == 'l':
-            self.prev_car_x = self.car_x
-            self.prev_car_y = self.car_y
-            
-            if self.car_direction == 'N':
-                self.car_direction = 'W'
-            elif self.car_direction == 'S':
-                self.car_direction = 'E'
-            elif self.car_direction == 'W':
-                self.car_direction = 'S'
-            elif self.car_direction == 'E':
-                self.car_direction = 'N'
-        
-        # isOnPath = (self.car_y == 0 and self.car_x == self.grid_size - 1) or (self.car_x == self.grid_size - 2) or (self.car_y == self.grid_size - 1 and self.car_x != self.grid_size - 1)
-        isOnPath = self.is_on_path(self.car_x, self.car_y)
-        
-        
-        if (self.car_x, self.car_y) == self.goal and (self.prev_car_x, self.prev_car_y) != self.goal:
-            reward = self.rewards['goal_reward']
-            done = True
-        
-        elif (self.car_x, self.car_y) == self.sub_goal and self.num_steps > 0:
-            reward = self
-            done = False    
-
-        elif hit_wall:
-            reward = self.rewards['hit_wall_reward']
-            done = False
-            
-        else: # penalize the agent for each step taken
-            reward = self.rewards['step_reward']
-            done = False
-
-        self.last_reward = reward
-        self.last_done = done
-        self.num_steps += 1
-        
-        if (self.num_steps >= self.max_steps):
-            done = True
-
-        self._update_visualization()
-        time.sleep(1)  # Delay for visualization
-
-        return (self.car_x, self.car_y, self.car_direction), reward, done, {}
 
     def render(self):
         self._update_visualization()
@@ -301,10 +213,6 @@ class Environment_Control:
         for row in range(self.grid_size):
             for col in range(self.grid_size):
                 pygame.draw.rect(self.screen, (230, 230, 250), (col * self.cell_size, row * self.cell_size, self.cell_size, self.cell_size), 1)
-                
-                # # To know the reference point (0, 0) => filled with red
-                # if (row == 0 and col == 0):
-                #     pygame.draw.rect(self.screen, (255, 0, 0), (col * self.cell_size, row * self.cell_size, self.cell_size, self.cell_size))
                 
                 if ((row == 1 or row == self.grid_size-2) and (col <= self.grid_size - 2  and col >= 1 )) or ((col == 1 or col == self.grid_size-2) and (row <= self.grid_size -2  and row >= 1 )):
                     
