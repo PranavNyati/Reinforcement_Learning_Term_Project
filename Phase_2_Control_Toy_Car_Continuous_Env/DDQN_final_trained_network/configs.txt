@@ -1,0 +1,79 @@
+############################
+DDQN-CONFIGS AND HYPERPARAMS
+############################
+
+# define all the configurations and parameters here
+device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
+learning_rate = 5e-4
+buffer_size = int(1e5)
+batch_size = 64
+discount_factor = 0.99
+update_target_freq = 5
+tau = 1e-3
+epsilon_start = 0.2
+epsilon_end = 0.0002
+epsilon_decay_rate = 1e-6
+hidden_dim1 = 64
+hidden_dim2 = 64
+max_t = 6000 # maximum number of timesteps per episode
+max_episodes = 300 # maximum number of episodes to train the agent
+save_logs_freq = 25 # save logs after every save_logs_freq episodes
+save_model_ckpts_freq = 25 # save model checkpoints after every save_model_ckpts_freq episodes
+train_stats_print_freq = 5 # print training statistics after every train_stats_print_freq episodes
+save_model_path = './train_logs/model_checkpoints/'
+save_logs_path = './train_logs/logs/'
+
+
+
+######################
+ENVIRONMENT-CONFIGS
+######################
+
+# Circular path parameters
+self.center = (self.window_size[0] // 2, self.window_size[1] // 2 - 50)
+self.radius = 380
+self.path_thickness = 80
+self.no_path_radius = 180
+self.no_path_outer_radius = self.radius + self.path_thickness + 20
+
+# Stochastic wind parameters
+self.wind_mean_x = 0.3
+self.wind_variance_x = 0.05
+self.wind_speed_x = np.random.normal(self.wind_mean_x, self.wind_variance_x)
+
+self.wind_mean_y = 0.3
+self.wind_variance_y = 0.05
+self.wind_speed_y = np.random.normal(self.wind_mean_y, self.wind_variance_y)
+
+# Car parameters
+self.car_length = 30
+self.car_width = 20
+self.car_speed = 1.2
+self.car_angle = math.pi / 2  # Start facing upward
+self.car_x, self.car_y = self.center[0] + self.radius - (self.path_thickness//2), self.center[1]
+self.start_pos_x, self.start_pos_y = self.car_x, self.car_y
+self.half_lap = False
+self.three_quarter_lap = False
+
+# Radar parameters
+self.num_rays = 5
+self.ray_lengths = np.array([50, 60, 70, 60, 50])
+self.ray_angles = np.array([-math.pi / 4, -math.pi / 8, 0, math.pi / 8, math.pi / 4])
+self.ray_values = np.array([0] * self.num_rays)  # Store radar ray values (1, -1, or 0)
+self.ray_x = np.array([0] * self.num_rays)
+self.ray_y = np.array([0] * self.num_rays)
+
+# State parameters and action space
+self.state_dim = self.num_rays + 3
+self.action_dim = 3
+
+# Rewards and score
+self.reward_inside_path = 2
+self.reward_outside_path = -15
+self.score = 0
+self.time_penalty = -1
+self.angle_change_penalty = -10
+self.goal_reward = 5000
+self.three_quarter_lap_reward = 1500
+self.no_access_hit_penalty = -200
+self.obstacle_sense_penalty = -5

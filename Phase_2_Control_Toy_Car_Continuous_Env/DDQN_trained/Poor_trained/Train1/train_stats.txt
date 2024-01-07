@@ -1,0 +1,4079 @@
+EPISODE:  1
+
+
+Time-step:  500 , Current reward:  -21
+Time-step:  1000 , Current reward:  -31
+Time-step:  1500 , Current reward:  -31
+Time-step:  2000 , Current reward:  -31
+Time-step:  2500 , Current reward:  -31
+Time-step:  3000 , Current reward:  -21
+Time-step:  3500 , Current reward:  -21
+Time-step:  4000 , Current reward:  -31
+Time-step:  4500 , Current reward:  -31
+Time-step:  5000 , Current reward:  -21
+Time-step:  5500 , Current reward:  -31
+Time-step:  6000 , Current reward:  -31
+
+
+EPISODE:  2
+
+
+Time-step:  500 , Current reward:  -16
+Time-step:  1000 , Current reward:  -31
+Time-step:  1500 , Current reward:  -21
+Time-step:  2000 , Current reward:  1
+Time-step:  2500 , Current reward:  -31
+Time-step:  3000 , Current reward:  -31
+Time-step:  3500 , Current reward:  -21
+Time-step:  4000 , Current reward:  -14
+Time-step:  4500 , Current reward:  -16
+Time-step:  5000 , Current reward:  1
+Time-step:  5500 , Current reward:  -221
+Time-step:  6000 , Current reward:  -31
+
+
+EPISODE:  3
+
+
+Time-step:  500 , Current reward:  -21
+Time-step:  1000 , Current reward:  -4
+Time-step:  1500 , Current reward:  -21
+Time-step:  2000 , Current reward:  1
+Time-step:  2500 , Current reward:  -31
+Time-step:  3000 , Current reward:  -31
+Time-step:  3500 , Current reward:  -31
+Time-step:  4000 , Current reward:  -21
+Time-step:  4500 , Current reward:  -9
+Time-step:  5000 , Current reward:  -21
+Time-step:  5500 , Current reward:  -16
+Time-step:  6000 , Current reward:  -16
+
+
+EPISODE:  4
+
+
+Time-step:  500 , Current reward:  -16
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  -21
+Time-step:  2000 , Current reward:  -4
+Time-step:  2500 , Current reward:  -26
+Time-step:  3000 , Current reward:  -4
+Time-step:  3500 , Current reward:  -4
+Time-step:  4000 , Current reward:  -21
+Time-step:  4500 , Current reward:  1
+Time-step:  5000 , Current reward:  1
+Time-step:  5500 , Current reward:  -26
+Time-step:  6000 , Current reward:  -21
+
+
+EPISODE:  5
+
+
+Time-step:  500 , Current reward:  -21
+Time-step:  1000 , Current reward:  -31
+Time-step:  1500 , Current reward:  -31
+Time-step:  2000 , Current reward:  -31
+Time-step:  2500 , Current reward:  -31
+Time-step:  3000 , Current reward:  -31
+Time-step:  3500 , Current reward:  -31
+Time-step:  4000 , Current reward:  -31
+Time-step:  4500 , Current reward:  -31
+Time-step:  5000 , Current reward:  -16
+Time-step:  5500 , Current reward:  -21
+Time-step:  6000 , Current reward:  -31
+
+
+Episode 5	Loss: 2143.57	Total Reward: -185235.00	Epsilon: 0.094000
+EPISODE:  6
+
+
+Time-step:  500 , Current reward:  -21
+Time-step:  1000 , Current reward:  -21
+Time-step:  1500 , Current reward:  -4
+Time-step:  2000 , Current reward:  1
+Time-step:  2500 , Current reward:  -31
+Time-step:  3000 , Current reward:  -31
+Time-step:  3500 , Current reward:  -31
+Time-step:  4000 , Current reward:  -21
+Time-step:  4500 , Current reward:  -21
+Time-step:  5000 , Current reward:  -21
+Time-step:  5500 , Current reward:  -21
+Time-step:  6000 , Current reward:  -31
+
+
+EPISODE:  7
+
+
+Time-step:  500 , Current reward:  -221
+Time-step:  1000 , Current reward:  -14
+Time-step:  1500 , Current reward:  -21
+Time-step:  2000 , Current reward:  -21
+Time-step:  2500 , Current reward:  -16
+Time-step:  3000 , Current reward:  -21
+Time-step:  3500 , Current reward:  -31
+Time-step:  4000 , Current reward:  -31
+Time-step:  4500 , Current reward:  -31
+Time-step:  5000 , Current reward:  -31
+Time-step:  5500 , Current reward:  -31
+Time-step:  6000 , Current reward:  -21
+
+
+EPISODE:  8
+
+
+Time-step:  500 , Current reward:  -21
+Time-step:  1000 , Current reward:  -21
+Time-step:  1500 , Current reward:  -16
+Time-step:  2000 , Current reward:  -14
+Time-step:  2500 , Current reward:  1
+Time-step:  3000 , Current reward:  1
+Time-step:  3500 , Current reward:  -16
+Time-step:  4000 , Current reward:  1
+Time-step:  4500 , Current reward:  -31
+Time-step:  5000 , Current reward:  -31
+Time-step:  5500 , Current reward:  -31
+Time-step:  6000 , Current reward:  -21
+
+
+EPISODE:  9
+
+
+Time-step:  500 , Current reward:  -31
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  -21
+Time-step:  2000 , Current reward:  -16
+Time-step:  2500 , Current reward:  -31
+Time-step:  3000 , Current reward:  1
+Time-step:  3500 , Current reward:  -31
+Time-step:  4000 , Current reward:  -4
+Time-step:  4500 , Current reward:  1
+Time-step:  5000 , Current reward:  -21
+Time-step:  5500 , Current reward:  -21
+Time-step:  6000 , Current reward:  -21
+
+
+EPISODE:  10
+
+
+Time-step:  500 , Current reward:  -31
+Time-step:  1000 , Current reward:  -31
+Time-step:  1500 , Current reward:  -4
+Time-step:  2000 , Current reward:  -21
+Time-step:  2500 , Current reward:  -21
+Time-step:  3000 , Current reward:  -31
+Time-step:  3500 , Current reward:  -31
+Time-step:  4000 , Current reward:  1
+Time-step:  4500 , Current reward:  -4
+Time-step:  5000 , Current reward:  -31
+Time-step:  5500 , Current reward:  -21
+Time-step:  6000 , Current reward:  -21
+
+
+Episode 10	Loss: 144.07	Total Reward: -114767.00	Epsilon: 0.088000
+EPISODE:  11
+
+
+Time-step:  500 , Current reward:  -31
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  -21
+Time-step:  2500 , Current reward:  -31
+Time-step:  3000 , Current reward:  -4
+Time-step:  3500 , Current reward:  -14
+Time-step:  4000 , Current reward:  -21
+Time-step:  4500 , Current reward:  -21
+Time-step:  5000 , Current reward:  1
+Time-step:  5500 , Current reward:  -21
+Time-step:  6000 , Current reward:  -21
+
+
+EPISODE:  12
+
+
+Time-step:  500 , Current reward:  -31
+Time-step:  1000 , Current reward:  -21
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  -21
+Time-step:  2500 , Current reward:  -16
+Time-step:  3000 , Current reward:  1
+Time-step:  3500 , Current reward:  -21
+Time-step:  4000 , Current reward:  -31
+Time-step:  4500 , Current reward:  -21
+Time-step:  5000 , Current reward:  1
+Time-step:  5500 , Current reward:  -21
+Time-step:  6000 , Current reward:  -21
+
+
+EPISODE:  13
+
+
+Time-step:  500 , Current reward:  -21
+Time-step:  1000 , Current reward:  -31
+Time-step:  1500 , Current reward:  -31
+Time-step:  2000 , Current reward:  -31
+Time-step:  2500 , Current reward:  -31
+Time-step:  3000 , Current reward:  -31
+Time-step:  3500 , Current reward:  -31
+Time-step:  4000 , Current reward:  -31
+Time-step:  4500 , Current reward:  -31
+Time-step:  5000 , Current reward:  -26
+Time-step:  5500 , Current reward:  -21
+Time-step:  6000 , Current reward:  -16
+
+
+EPISODE:  14
+
+
+Time-step:  500 , Current reward:  -16
+Time-step:  1000 , Current reward:  -21
+Time-step:  1500 , Current reward:  -21
+Time-step:  2000 , Current reward:  -21
+Time-step:  2500 , Current reward:  -31
+Time-step:  3000 , Current reward:  -21
+Time-step:  3500 , Current reward:  -31
+Time-step:  4000 , Current reward:  1
+Time-step:  4500 , Current reward:  1
+Time-step:  5000 , Current reward:  -21
+Time-step:  5500 , Current reward:  -9
+Time-step:  6000 , Current reward:  1
+
+
+EPISODE:  15
+
+
+Time-step:  500 , Current reward:  -26
+Time-step:  1000 , Current reward:  -21
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  1
+Time-step:  2500 , Current reward:  -16
+Time-step:  3000 , Current reward:  -21
+Time-step:  3500 , Current reward:  -16
+Time-step:  4000 , Current reward:  -14
+Time-step:  4500 , Current reward:  -9
+Time-step:  5000 , Current reward:  -14
+Time-step:  5500 , Current reward:  -31
+Time-step:  6000 , Current reward:  -31
+
+
+Episode 15	Loss: 1034.56	Total Reward: -72410.00	Epsilon: 0.082000
+EPISODE:  16
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  -31
+Time-step:  2000 , Current reward:  1
+Time-step:  2500 , Current reward:  -21
+Time-step:  3000 , Current reward:  1
+Time-step:  3500 , Current reward:  -26
+Time-step:  4000 , Current reward:  -4
+Time-step:  4500 , Current reward:  -21
+Time-step:  5000 , Current reward:  -16
+Time-step:  5500 , Current reward:  -21
+Time-step:  6000 , Current reward:  -21
+
+
+EPISODE:  17
+
+
+Time-step:  500 , Current reward:  -16
+Time-step:  1000 , Current reward:  -221
+Time-step:  1500 , Current reward:  -31
+Time-step:  2000 , Current reward:  -231
+Time-step:  2500 , Current reward:  -221
+Time-step:  3000 , Current reward:  -31
+Time-step:  3500 , Current reward:  -31
+Time-step:  4000 , Current reward:  -31
+Time-step:  4500 , Current reward:  -21
+Time-step:  5000 , Current reward:  -21
+Time-step:  5500 , Current reward:  -21
+Time-step:  6000 , Current reward:  -21
+
+
+EPISODE:  18
+
+
+Time-step:  500 , Current reward:  -31
+Time-step:  1000 , Current reward:  -21
+Time-step:  1500 , Current reward:  -16
+Time-step:  2000 , Current reward:  -16
+Time-step:  2500 , Current reward:  -16
+Time-step:  3000 , Current reward:  -21
+Time-step:  3500 , Current reward:  -31
+Time-step:  4000 , Current reward:  1
+Time-step:  4500 , Current reward:  -14
+Time-step:  5000 , Current reward:  1
+Time-step:  5500 , Current reward:  -4
+Time-step:  6000 , Current reward:  -14
+
+
+EPISODE:  19
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  -16
+Time-step:  2000 , Current reward:  -21
+Time-step:  2500 , Current reward:  -21
+Time-step:  3000 , Current reward:  1
+Time-step:  3500 , Current reward:  -21
+Time-step:  4000 , Current reward:  -21
+Time-step:  4500 , Current reward:  -21
+Time-step:  5000 , Current reward:  -31
+Time-step:  5500 , Current reward:  -14
+Time-step:  6000 , Current reward:  -31
+
+
+EPISODE:  20
+
+
+Time-step:  500 , Current reward:  -16
+Time-step:  1000 , Current reward:  -4
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  -4
+Time-step:  2500 , Current reward:  -21
+Time-step:  3000 , Current reward:  -16
+Time-step:  3500 , Current reward:  -16
+Time-step:  4000 , Current reward:  -31
+Time-step:  4500 , Current reward:  -4
+Time-step:  5000 , Current reward:  -21
+Time-step:  5500 , Current reward:  1
+Time-step:  6000 , Current reward:  -31
+
+
+Episode 20	Loss: 2022.21	Total Reward: -85254.00	Epsilon: 0.076000
+EPISODE:  21
+
+
+Time-step:  500 , Current reward:  -21
+Time-step:  1000 , Current reward:  -31
+Time-step:  1500 , Current reward:  -31
+Time-step:  2000 , Current reward:  -31
+Time-step:  2500 , Current reward:  1
+Time-step:  3000 , Current reward:  1
+Time-step:  3500 , Current reward:  1
+Time-step:  4000 , Current reward:  -21
+Time-step:  4500 , Current reward:  -16
+Time-step:  5000 , Current reward:  -231
+Time-step:  5500 , Current reward:  1
+Time-step:  6000 , Current reward:  -31
+
+
+EPISODE:  22
+
+
+Time-step:  500 , Current reward:  -31
+Time-step:  1000 , Current reward:  -21
+Time-step:  1500 , Current reward:  -31
+Time-step:  2000 , Current reward:  -21
+Time-step:  2500 , Current reward:  -21
+Time-step:  3000 , Current reward:  -31
+Time-step:  3500 , Current reward:  -21
+Time-step:  4000 , Current reward:  -31
+Time-step:  4500 , Current reward:  -31
+Time-step:  5000 , Current reward:  -9
+Time-step:  5500 , Current reward:  -21
+Time-step:  6000 , Current reward:  -31
+
+
+EPISODE:  23
+
+
+Time-step:  500 , Current reward:  -21
+Time-step:  1000 , Current reward:  -16
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  1
+Time-step:  2500 , Current reward:  1
+Time-step:  3000 , Current reward:  -31
+Time-step:  3500 , Current reward:  1
+Time-step:  4000 , Current reward:  1
+Time-step:  4500 , Current reward:  -31
+Time-step:  5000 , Current reward:  -21
+Time-step:  5500 , Current reward:  -31
+Time-step:  6000 , Current reward:  1
+
+
+EPISODE:  24
+
+
+Time-step:  500 , Current reward:  -16
+Time-step:  1000 , Current reward:  -21
+Time-step:  1500 , Current reward:  -21
+Time-step:  2000 , Current reward:  -31
+Time-step:  2500 , Current reward:  -21
+Time-step:  3000 , Current reward:  -21
+Time-step:  3500 , Current reward:  -21
+Time-step:  4000 , Current reward:  -4
+Time-step:  4500 , Current reward:  -21
+Time-step:  5000 , Current reward:  -21
+Time-step:  5500 , Current reward:  1
+Time-step:  6000 , Current reward:  -21
+
+
+EPISODE:  25
+
+
+Time-step:  500 , Current reward:  -21
+Time-step:  1000 , Current reward:  -31
+Time-step:  1500 , Current reward:  -31
+Time-step:  2000 , Current reward:  -21
+Time-step:  2500 , Current reward:  -31
+Time-step:  3000 , Current reward:  1
+Time-step:  3500 , Current reward:  -4
+Time-step:  4000 , Current reward:  -21
+Time-step:  4500 , Current reward:  -31
+Time-step:  5000 , Current reward:  -31
+Time-step:  5500 , Current reward:  -31
+Time-step:  6000 , Current reward:  -31
+
+
+Episode 25	Loss: 1126.33	Total Reward: -198370.00	Epsilon: 0.070000
+EPISODE:  26
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  -21
+Time-step:  1500 , Current reward:  -21
+Time-step:  2000 , Current reward:  1
+Time-step:  2500 , Current reward:  -16
+Time-step:  3000 , Current reward:  -9
+Time-step:  3500 , Current reward:  1
+Time-step:  4000 , Current reward:  -14
+Time-step:  4500 , Current reward:  1
+GOAL REACHED SUCCESSFULLY!
+
+
+EPISODE:  27
+
+
+Time-step:  500 , Current reward:  -4
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  -21
+Time-step:  2000 , Current reward:  1
+Time-step:  2500 , Current reward:  -4
+Time-step:  3000 , Current reward:  1
+Time-step:  3500 , Current reward:  -9
+Time-step:  4000 , Current reward:  1
+Time-step:  4500 , Current reward:  1
+Time-step:  5000 , Current reward:  -21
+Time-step:  5500 , Current reward:  -21
+Time-step:  6000 , Current reward:  -21
+
+
+EPISODE:  28
+
+
+Time-step:  500 , Current reward:  -21
+Time-step:  1000 , Current reward:  -4
+Time-step:  1500 , Current reward:  -21
+Time-step:  2000 , Current reward:  -21
+Time-step:  2500 , Current reward:  -31
+Time-step:  3000 , Current reward:  -31
+Time-step:  3500 , Current reward:  -31
+Time-step:  4000 , Current reward:  1
+Time-step:  4500 , Current reward:  -31
+Time-step:  5000 , Current reward:  -221
+Time-step:  5500 , Current reward:  1
+Time-step:  6000 , Current reward:  -31
+
+
+EPISODE:  29
+
+
+Time-step:  500 , Current reward:  -21
+Time-step:  1000 , Current reward:  -4
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  -21
+Time-step:  2500 , Current reward:  -4
+Time-step:  3000 , Current reward:  -16
+Time-step:  3500 , Current reward:  -4
+Time-step:  4000 , Current reward:  1
+Time-step:  4500 , Current reward:  1
+Time-step:  5000 , Current reward:  -14
+Time-step:  5500 , Current reward:  -31
+Time-step:  6000 , Current reward:  -31
+
+
+EPISODE:  30
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  -16
+Time-step:  1500 , Current reward:  -4
+Time-step:  2000 , Current reward:  -4
+Time-step:  2500 , Current reward:  -31
+Time-step:  3000 , Current reward:  -16
+Time-step:  3500 , Current reward:  1
+Time-step:  4000 , Current reward:  -4
+Time-step:  4500 , Current reward:  -31
+Time-step:  5000 , Current reward:  -31
+Time-step:  5500 , Current reward:  -31
+Time-step:  6000 , Current reward:  1
+
+
+Episode 30	Loss: 1624.37	Total Reward: -111185.00	Epsilon: 0.064247
+EPISODE:  31
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  -4
+Time-step:  1500 , Current reward:  -31
+Time-step:  2000 , Current reward:  1
+Time-step:  2500 , Current reward:  1
+Time-step:  3000 , Current reward:  -4
+Time-step:  3500 , Current reward:  1
+Time-step:  4000 , Current reward:  1
+Time-step:  4500 , Current reward:  -16
+Time-step:  5000 , Current reward:  1
+Time-step:  5500 , Current reward:  -26
+Time-step:  6000 , Current reward:  -21
+
+
+EPISODE:  32
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  -4
+Time-step:  1500 , Current reward:  -4
+Time-step:  2000 , Current reward:  1
+Time-step:  2500 , Current reward:  -31
+Time-step:  3000 , Current reward:  1
+Time-step:  3500 , Current reward:  1
+Time-step:  4000 , Current reward:  1
+Time-step:  4500 , Current reward:  -26
+Time-step:  5000 , Current reward:  -9
+Time-step:  5500 , Current reward:  -16
+Time-step:  6000 , Current reward:  -4
+
+
+EPISODE:  33
+
+
+Time-step:  500 , Current reward:  -9
+Time-step:  1000 , Current reward:  -9
+Time-step:  1500 , Current reward:  -31
+Time-step:  2000 , Current reward:  -26
+Time-step:  2500 , Current reward:  -9
+Time-step:  3000 , Current reward:  -21
+Time-step:  3500 , Current reward:  1
+Time-step:  4000 , Current reward:  1
+Time-step:  4500 , Current reward:  -4
+Time-step:  5000 , Current reward:  -21
+Time-step:  5500 , Current reward:  1
+Time-step:  6000 , Current reward:  -4
+
+
+EPISODE:  34
+
+
+Time-step:  500 , Current reward:  -9
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  -31
+Time-step:  2000 , Current reward:  -21
+Time-step:  2500 , Current reward:  -4
+Time-step:  3000 , Current reward:  -4
+Time-step:  3500 , Current reward:  1
+Time-step:  4000 , Current reward:  1
+Time-step:  4500 , Current reward:  -9
+Time-step:  5000 , Current reward:  1
+Time-step:  5500 , Current reward:  -4
+Time-step:  6000 , Current reward:  -4
+
+
+EPISODE:  35
+
+
+Time-step:  500 , Current reward:  -14
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  -21
+Time-step:  2000 , Current reward:  -21
+Time-step:  2500 , Current reward:  -4
+Time-step:  3000 , Current reward:  -14
+Time-step:  3500 , Current reward:  1
+Time-step:  4000 , Current reward:  -21
+Time-step:  4500 , Current reward:  1
+Time-step:  5000 , Current reward:  -4
+Time-step:  5500 , Current reward:  1
+Time-step:  6000 , Current reward:  1
+
+
+Episode 35	Loss: 169.06	Total Reward: -66429.00	Epsilon: 0.058247
+EPISODE:  36
+
+
+Time-step:  500 , Current reward:  -21
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  -9
+Time-step:  2500 , Current reward:  1
+Time-step:  3000 , Current reward:  -16
+Time-step:  3500 , Current reward:  -21
+Time-step:  4000 , Current reward:  1
+Time-step:  4500 , Current reward:  1
+Time-step:  5000 , Current reward:  1
+Time-step:  5500 , Current reward:  -31
+Time-step:  6000 , Current reward:  -31
+
+
+EPISODE:  37
+
+
+Time-step:  500 , Current reward:  -21
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  1
+Time-step:  2500 , Current reward:  1
+Time-step:  3000 , Current reward:  1
+Time-step:  3500 , Current reward:  1
+Time-step:  4000 , Current reward:  1
+Time-step:  4500 , Current reward:  1
+Time-step:  5000 , Current reward:  1
+Time-step:  5500 , Current reward:  1
+Time-step:  6000 , Current reward:  1
+
+
+EPISODE:  38
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  -16
+Time-step:  2000 , Current reward:  1
+Time-step:  2500 , Current reward:  1
+Time-step:  3000 , Current reward:  1
+Time-step:  3500 , Current reward:  1
+Time-step:  4000 , Current reward:  -9
+Time-step:  4500 , Current reward:  1
+GOAL REACHED SUCCESSFULLY!
+
+
+EPISODE:  39
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  1
+GOAL REACHED SUCCESSFULLY!
+
+
+EPISODE:  40
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  -21
+Time-step:  2000 , Current reward:  1
+GOAL REACHED SUCCESSFULLY!
+
+
+Episode 40	Loss: 165.98	Total Reward: -392.00	Epsilon: 0.054047
+EPISODE:  41
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  1401
+Time-step:  2000 , Current reward:  1
+GOAL REACHED SUCCESSFULLY!
+
+
+EPISODE:  42
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  -9
+GOAL REACHED SUCCESSFULLY!
+
+
+EPISODE:  43
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  -9
+Time-step:  2000 , Current reward:  -9
+GOAL REACHED SUCCESSFULLY!
+
+
+EPISODE:  44
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  1
+GOAL REACHED SUCCESSFULLY!
+
+
+EPISODE:  45
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  1
+GOAL REACHED SUCCESSFULLY!
+
+
+Episode 45	Loss: 934.00	Total Reward: 5943.00	Epsilon: 0.052041
+EPISODE:  46
+
+
+Time-step:  500 , Current reward:  -9
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  1
+GOAL REACHED SUCCESSFULLY!
+
+
+EPISODE:  47
+
+
+Time-step:  500 , Current reward:  -9
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  1
+GOAL REACHED SUCCESSFULLY!
+
+
+EPISODE:  48
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  5001
+GOAL REACHED SUCCESSFULLY!
+
+
+EPISODE:  49
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  -9
+Time-step:  2000 , Current reward:  1
+GOAL REACHED SUCCESSFULLY!
+
+
+EPISODE:  50
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  -9
+GOAL REACHED SUCCESSFULLY!
+
+
+Episode 50	Loss: 255.57	Total Reward: 6089.00	Epsilon: 0.050040
+EPISODE:  51
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  1
+GOAL REACHED SUCCESSFULLY!
+
+
+EPISODE:  52
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  1
+GOAL REACHED SUCCESSFULLY!
+
+
+EPISODE:  53
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  1
+GOAL REACHED SUCCESSFULLY!
+
+
+EPISODE:  54
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  1
+GOAL REACHED SUCCESSFULLY!
+
+
+EPISODE:  55
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  1
+GOAL REACHED SUCCESSFULLY!
+
+
+Episode 55	Loss: 1265.31	Total Reward: 5099.00	Epsilon: 0.048023
+EPISODE:  56
+
+
+Time-step:  500 , Current reward:  -9
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  1
+GOAL REACHED SUCCESSFULLY!
+
+
+EPISODE:  57
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  1
+GOAL REACHED SUCCESSFULLY!
+
+
+EPISODE:  58
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  1
+GOAL REACHED SUCCESSFULLY!
+
+
+EPISODE:  59
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  1
+GOAL REACHED SUCCESSFULLY!
+
+
+EPISODE:  60
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  1
+GOAL REACHED SUCCESSFULLY!
+
+
+Episode 60	Loss: 406.30	Total Reward: 6982.00	Epsilon: 0.046012
+EPISODE:  61
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  1
+GOAL REACHED SUCCESSFULLY!
+
+
+EPISODE:  62
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  -9
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  1
+GOAL REACHED SUCCESSFULLY!
+
+
+EPISODE:  63
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  1
+GOAL REACHED SUCCESSFULLY!
+
+
+EPISODE:  64
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  -16
+Time-step:  1500 , Current reward:  -9
+GOAL REACHED SUCCESSFULLY!
+
+
+EPISODE:  65
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  -9
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  1
+GOAL REACHED SUCCESSFULLY!
+
+
+Episode 65	Loss: 114.95	Total Reward: 5818.00	Epsilon: 0.044006
+EPISODE:  66
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  1
+GOAL REACHED SUCCESSFULLY!
+
+
+EPISODE:  67
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  1
+GOAL REACHED SUCCESSFULLY!
+
+
+EPISODE:  68
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  1
+GOAL REACHED SUCCESSFULLY!
+
+
+EPISODE:  69
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  1
+GOAL REACHED SUCCESSFULLY!
+
+
+EPISODE:  70
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  1
+GOAL REACHED SUCCESSFULLY!
+
+
+Episode 70	Loss: 307.46	Total Reward: 5692.00	Epsilon: 0.041986
+EPISODE:  71
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  1
+GOAL REACHED SUCCESSFULLY!
+
+
+EPISODE:  72
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  1
+GOAL REACHED SUCCESSFULLY!
+
+
+EPISODE:  73
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  1
+GOAL REACHED SUCCESSFULLY!
+
+
+EPISODE:  74
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  1
+GOAL REACHED SUCCESSFULLY!
+
+
+EPISODE:  75
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  1
+GOAL REACHED SUCCESSFULLY!
+
+
+Episode 75	Loss: 86.16	Total Reward: 1272.00	Epsilon: 0.039946
+EPISODE:  76
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  -9
+Time-step:  2000 , Current reward:  1
+GOAL REACHED SUCCESSFULLY!
+
+
+EPISODE:  77
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  -9
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  1
+GOAL REACHED SUCCESSFULLY!
+
+
+EPISODE:  78
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  -16
+Time-step:  1500 , Current reward:  -4
+Time-step:  2000 , Current reward:  1
+GOAL REACHED SUCCESSFULLY!
+
+
+EPISODE:  79
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  -9
+Time-step:  2000 , Current reward:  1
+GOAL REACHED SUCCESSFULLY!
+
+
+EPISODE:  80
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  1
+GOAL REACHED SUCCESSFULLY!
+
+
+Episode 80	Loss: 143.01	Total Reward: 5372.00	Epsilon: 0.037891
+EPISODE:  81
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  1
+GOAL REACHED SUCCESSFULLY!
+
+
+EPISODE:  82
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  -4
+Time-step:  2500 , Current reward:  1
+Time-step:  3000 , Current reward:  1
+Time-step:  3500 , Current reward:  1
+Time-step:  4000 , Current reward:  1
+Time-step:  4500 , Current reward:  1
+Time-step:  5000 , Current reward:  -16
+Time-step:  5500 , Current reward:  1
+Time-step:  6000 , Current reward:  -9
+
+
+EPISODE:  83
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  1
+GOAL REACHED SUCCESSFULLY!
+
+
+EPISODE:  84
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  1
+GOAL REACHED SUCCESSFULLY!
+
+
+EPISODE:  85
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  1
+GOAL REACHED SUCCESSFULLY!
+
+
+Episode 85	Loss: 699.04	Total Reward: 5270.00	Epsilon: 0.035017
+EPISODE:  86
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  1
+GOAL REACHED SUCCESSFULLY!
+
+
+EPISODE:  87
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  1
+GOAL REACHED SUCCESSFULLY!
+
+
+EPISODE:  88
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  -9
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  1
+GOAL REACHED SUCCESSFULLY!
+
+
+EPISODE:  89
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  -14
+Time-step:  2000 , Current reward:  1
+GOAL REACHED SUCCESSFULLY!
+
+
+EPISODE:  90
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  1
+GOAL REACHED SUCCESSFULLY!
+
+
+Episode 90	Loss: 753.64	Total Reward: 5483.00	Epsilon: 0.032956
+EPISODE:  91
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  -4
+Time-step:  2500 , Current reward:  1
+Time-step:  3000 , Current reward:  1
+GOAL REACHED SUCCESSFULLY!
+
+
+EPISODE:  92
+
+
+Time-step:  500 , Current reward:  -9
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  1
+GOAL REACHED SUCCESSFULLY!
+
+
+EPISODE:  93
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  1
+GOAL REACHED SUCCESSFULLY!
+
+
+EPISODE:  94
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  1
+GOAL REACHED SUCCESSFULLY!
+
+
+EPISODE:  95
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  1
+GOAL REACHED SUCCESSFULLY!
+
+
+Episode 95	Loss: 57.22	Total Reward: 4022.00	Epsilon: 0.030565
+EPISODE:  96
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  1
+GOAL REACHED SUCCESSFULLY!
+
+
+EPISODE:  97
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  -9
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  1
+GOAL REACHED SUCCESSFULLY!
+
+
+EPISODE:  98
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  1
+Time-step:  2500 , Current reward:  1
+Time-step:  3000 , Current reward:  -9
+Time-step:  3500 , Current reward:  -9
+Time-step:  4000 , Current reward:  1
+Time-step:  4500 , Current reward:  -31
+Time-step:  5000 , Current reward:  -31
+Time-step:  5500 , Current reward:  -31
+Time-step:  6000 , Current reward:  -31
+
+
+EPISODE:  99
+
+
+Time-step:  500 , Current reward:  -16
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  -16
+Time-step:  2000 , Current reward:  1
+GOAL REACHED SUCCESSFULLY!
+
+
+EPISODE:  100
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  -9
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  1
+GOAL REACHED SUCCESSFULLY!
+
+
+Episode 100	Loss: 495.54	Total Reward: 2558.00	Epsilon: 0.027722
+
+
+Episode 100	Average Score over last 100 episodes: -38669.60
+
+
+EPISODE:  101
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  -14
+Time-step:  2500 , Current reward:  -31
+Time-step:  3000 , Current reward:  -31
+Time-step:  3500 , Current reward:  -31
+Time-step:  4000 , Current reward:  -31
+Time-step:  4500 , Current reward:  -26
+Time-step:  5000 , Current reward:  1
+Time-step:  5500 , Current reward:  1
+Time-step:  6000 , Current reward:  -9
+
+
+EPISODE:  102
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  -31
+Time-step:  2500 , Current reward:  -31
+Time-step:  3000 , Current reward:  -31
+Time-step:  3500 , Current reward:  -31
+Time-step:  4000 , Current reward:  -31
+Time-step:  4500 , Current reward:  -31
+Time-step:  5000 , Current reward:  -31
+Time-step:  5500 , Current reward:  -31
+Time-step:  6000 , Current reward:  -31
+
+
+EPISODE:  103
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  1
+Time-step:  2500 , Current reward:  -16
+Time-step:  3000 , Current reward:  -9
+Time-step:  3500 , Current reward:  -9
+Time-step:  4000 , Current reward:  1
+Time-step:  4500 , Current reward:  1
+Time-step:  5000 , Current reward:  1
+Time-step:  5500 , Current reward:  -9
+GOAL REACHED SUCCESSFULLY!
+
+
+EPISODE:  104
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  1
+GOAL REACHED SUCCESSFULLY!
+
+
+EPISODE:  105
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  1
+GOAL REACHED SUCCESSFULLY!
+
+
+Episode 105	Loss: 1218.10	Total Reward: 3744.00	Epsilon: 0.023322
+
+
+Episode 105	Average Score over last 100 episodes: -34305.54
+
+
+EPISODE:  106
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  -9
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  1
+GOAL REACHED SUCCESSFULLY!
+
+
+EPISODE:  107
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  1
+GOAL REACHED SUCCESSFULLY!
+
+
+EPISODE:  108
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  1
+GOAL REACHED SUCCESSFULLY!
+
+
+EPISODE:  109
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  -9
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  1
+GOAL REACHED SUCCESSFULLY!
+
+
+EPISODE:  110
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  -9
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  1
+GOAL REACHED SUCCESSFULLY!
+
+
+Episode 110	Loss: 149453.31	Total Reward: 7268.00	Epsilon: 0.021260
+
+
+Episode 110	Average Score over last 100 episodes: -27484.29
+
+
+EPISODE:  111
+
+
+Time-step:  500 , Current reward:  -9
+Time-step:  1000 , Current reward:  -9
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  1
+GOAL REACHED SUCCESSFULLY!
+
+
+EPISODE:  112
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  1
+GOAL REACHED SUCCESSFULLY!
+
+
+EPISODE:  113
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  -9
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  1
+Time-step:  2500 , Current reward:  -16
+Time-step:  3000 , Current reward:  -31
+Time-step:  3500 , Current reward:  -21
+Time-step:  4000 , Current reward:  -16
+Time-step:  4500 , Current reward:  -31
+Time-step:  5000 , Current reward:  1
+Time-step:  5500 , Current reward:  -21
+Time-step:  6000 , Current reward:  1
+
+
+EPISODE:  114
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  1
+GOAL REACHED SUCCESSFULLY!
+
+
+EPISODE:  115
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  -9
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  1
+GOAL REACHED SUCCESSFULLY!
+
+
+Episode 115	Loss: 2198.79	Total Reward: 5697.00	Epsilon: 0.018408
+
+
+Episode 115	Average Score over last 100 episodes: -21876.33
+
+
+EPISODE:  116
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  -9
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  1
+GOAL REACHED SUCCESSFULLY!
+
+
+EPISODE:  117
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  1
+GOAL REACHED SUCCESSFULLY!
+
+
+EPISODE:  118
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  -9
+Time-step:  1500 , Current reward:  -9
+Time-step:  2000 , Current reward:  1
+GOAL REACHED SUCCESSFULLY!
+
+
+EPISODE:  119
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  -4
+GOAL REACHED SUCCESSFULLY!
+
+
+EPISODE:  120
+
+
+Time-step:  500 , Current reward:  -4
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  -21
+Time-step:  2500 , Current reward:  -31
+Time-step:  3000 , Current reward:  -31
+Time-step:  3500 , Current reward:  -9
+Time-step:  4000 , Current reward:  -9
+Time-step:  4500 , Current reward:  1
+Time-step:  5000 , Current reward:  -4
+Time-step:  5500 , Current reward:  -31
+Time-step:  6000 , Current reward:  1
+
+
+Episode 120	Loss: 31260.89	Total Reward: -88896.00	Epsilon: 0.015556
+
+
+Episode 120	Average Score over last 100 episodes: -17032.38
+
+
+EPISODE:  121
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  -9
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  1
+GOAL REACHED SUCCESSFULLY!
+
+
+EPISODE:  122
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  1
+GOAL REACHED SUCCESSFULLY!
+
+
+EPISODE:  123
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  -9
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  1
+GOAL REACHED SUCCESSFULLY!
+
+
+EPISODE:  124
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  -9
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  1
+GOAL REACHED SUCCESSFULLY!
+
+
+EPISODE:  125
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  1
+GOAL REACHED SUCCESSFULLY!
+
+
+Episode 125	Loss: 594.43	Total Reward: 5970.00	Epsilon: 0.013488
+
+
+Episode 125	Average Score over last 100 episodes: -9347.13
+
+
+EPISODE:  126
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  -9
+GOAL REACHED SUCCESSFULLY!
+
+
+EPISODE:  127
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  -9
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  1
+GOAL REACHED SUCCESSFULLY!
+
+
+EPISODE:  128
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  -9
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  1
+GOAL REACHED SUCCESSFULLY!
+
+
+EPISODE:  129
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  -9
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  1
+GOAL REACHED SUCCESSFULLY!
+
+
+EPISODE:  130
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  1
+GOAL REACHED SUCCESSFULLY!
+
+
+Episode 130	Loss: 1602.32	Total Reward: 5462.00	Epsilon: 0.011421
+
+
+Episode 130	Average Score over last 100 episodes: -4646.91
+
+
+EPISODE:  131
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  1
+GOAL REACHED SUCCESSFULLY!
+
+
+EPISODE:  132
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  1
+GOAL REACHED SUCCESSFULLY!
+
+
+EPISODE:  133
+
+
+Time-step:  500 , Current reward:  -14
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  1
+GOAL REACHED SUCCESSFULLY!
+
+
+EPISODE:  134
+
+
+Time-step:  500 , Current reward:  -31
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  1
+GOAL REACHED SUCCESSFULLY!
+
+
+EPISODE:  135
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  -9
+Time-step:  1500 , Current reward:  -9
+Time-step:  2000 , Current reward:  1
+GOAL REACHED SUCCESSFULLY!
+
+
+Episode 135	Loss: 3306.61	Total Reward: 6513.00	Epsilon: 0.009284
+
+
+Episode 135	Average Score over last 100 episodes: -1507.82
+
+
+EPISODE:  136
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  1
+GOAL REACHED SUCCESSFULLY!
+
+
+EPISODE:  137
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  -9
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  1
+GOAL REACHED SUCCESSFULLY!
+
+
+EPISODE:  138
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  -9
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  1
+GOAL REACHED SUCCESSFULLY!
+
+
+EPISODE:  139
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  -9
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  1
+GOAL REACHED SUCCESSFULLY!
+
+
+EPISODE:  140
+
+
+Time-step:  500 , Current reward:  -9
+Time-step:  1000 , Current reward:  -9
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  1
+GOAL REACHED SUCCESSFULLY!
+
+
+Episode 140	Loss: 1217.43	Total Reward: 5357.00	Epsilon: 0.007212
+
+
+Episode 140	Average Score over last 100 episodes: -345.16
+
+
+EPISODE:  141
+
+
+Time-step:  500 , Current reward:  -16
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  -9
+Time-step:  2500 , Current reward:  1
+Time-step:  3000 , Current reward:  -9
+Time-step:  3500 , Current reward:  1
+Time-step:  4000 , Current reward:  -16
+Time-step:  4500 , Current reward:  1
+Time-step:  5000 , Current reward:  -31
+Time-step:  5500 , Current reward:  1
+Time-step:  6000 , Current reward:  1
+
+
+EPISODE:  142
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  -31
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  1
+Time-step:  2500 , Current reward:  1
+Time-step:  3000 , Current reward:  -4
+Time-step:  3500 , Current reward:  1
+Time-step:  4000 , Current reward:  1
+Time-step:  4500 , Current reward:  1
+GOAL REACHED SUCCESSFULLY!
+
+
+EPISODE:  143
+
+
+Time-step:  500 , Current reward:  -4
+Time-step:  1000 , Current reward:  -9
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  1
+GOAL REACHED SUCCESSFULLY!
+
+
+EPISODE:  144
+
+
+Time-step:  500 , Current reward:  -4
+Time-step:  1000 , Current reward:  -9
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  1
+GOAL REACHED SUCCESSFULLY!
+
+
+EPISODE:  145
+
+
+Time-step:  500 , Current reward:  -21
+Time-step:  1000 , Current reward:  -9
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  1
+GOAL REACHED SUCCESSFULLY!
+
+
+Episode 145	Loss: 1972.03	Total Reward: -896.00	Epsilon: 0.003838
+
+
+Episode 145	Average Score over last 100 episodes: -1010.65
+
+
+EPISODE:  146
+
+
+Time-step:  500 , Current reward:  -21
+Time-step:  1000 , Current reward:  -9
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  1
+Time-step:  2500 , Current reward:  -4
+Time-step:  3000 , Current reward:  1
+Time-step:  3500 , Current reward:  1
+Time-step:  4000 , Current reward:  -9
+GOAL REACHED SUCCESSFULLY!
+
+
+EPISODE:  147
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  -9
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  1
+GOAL REACHED SUCCESSFULLY!
+
+
+EPISODE:  148
+
+
+Time-step:  500 , Current reward:  -4
+Time-step:  1000 , Current reward:  -9
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  1
+GOAL REACHED SUCCESSFULLY!
+
+
+EPISODE:  149
+
+
+Time-step:  500 , Current reward:  -31
+Time-step:  1000 , Current reward:  -9
+Time-step:  1500 , Current reward:  -9
+Time-step:  2000 , Current reward:  1
+Time-step:  2500 , Current reward:  -21
+Time-step:  3000 , Current reward:  1
+Time-step:  3500 , Current reward:  -9
+Time-step:  4000 , Current reward:  1
+Time-step:  4500 , Current reward:  1
+GOAL REACHED SUCCESSFULLY!
+
+
+EPISODE:  150
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  -9
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  1
+Time-step:  2500 , Current reward:  1
+Time-step:  3000 , Current reward:  1
+GOAL REACHED SUCCESSFULLY!
+
+
+Episode 150	Loss: 1685.95	Total Reward: -1437.00	Epsilon: 0.000569
+
+
+Episode 150	Average Score over last 100 episodes: -1473.71
+
+
+EPISODE:  151
+
+
+Time-step:  500 , Current reward:  -9
+Time-step:  1000 , Current reward:  -9
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  -21
+Time-step:  2500 , Current reward:  -21
+Time-step:  3000 , Current reward:  1
+Time-step:  3500 , Current reward:  1
+Time-step:  4000 , Current reward:  -9
+Time-step:  4500 , Current reward:  1
+GOAL REACHED SUCCESSFULLY!
+
+
+EPISODE:  152
+
+
+Time-step:  500 , Current reward:  -21
+Time-step:  1000 , Current reward:  -9
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  -16
+Time-step:  2500 , Current reward:  -21
+Time-step:  3000 , Current reward:  1
+Time-step:  3500 , Current reward:  1
+Time-step:  4000 , Current reward:  1
+GOAL REACHED SUCCESSFULLY!
+
+
+EPISODE:  153
+
+
+Time-step:  500 , Current reward:  -16
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  1
+GOAL REACHED SUCCESSFULLY!
+
+
+EPISODE:  154
+
+
+Time-step:  500 , Current reward:  -21
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  -16
+GOAL REACHED SUCCESSFULLY!
+
+
+EPISODE:  155
+
+
+Time-step:  500 , Current reward:  -21
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  -16
+Time-step:  2000 , Current reward:  1
+GOAL REACHED SUCCESSFULLY!
+
+
+Episode 155	Loss: 464.22	Total Reward: -3539.00	Epsilon: 0.000020
+
+
+Episode 155	Average Score over last 100 episodes: -1990.62
+
+
+EPISODE:  156
+
+
+Time-step:  500 , Current reward:  -21
+Time-step:  1000 , Current reward:  -9
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  1
+GOAL REACHED SUCCESSFULLY!
+
+
+EPISODE:  157
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  -9
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  -16
+GOAL REACHED SUCCESSFULLY!
+
+
+EPISODE:  158
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  1
+GOAL REACHED SUCCESSFULLY!
+
+
+EPISODE:  159
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  -9
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  -16
+GOAL REACHED SUCCESSFULLY!
+
+
+EPISODE:  160
+
+
+Time-step:  500 , Current reward:  -9
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  -16
+Time-step:  2000 , Current reward:  1
+Time-step:  2500 , Current reward:  1
+Time-step:  3000 , Current reward:  1
+Time-step:  3500 , Current reward:  -9
+Time-step:  4000 , Current reward:  1
+Time-step:  4500 , Current reward:  1
+Time-step:  5000 , Current reward:  1
+Time-step:  5500 , Current reward:  1
+Time-step:  6000 , Current reward:  -9
+
+
+Episode 160	Loss: 401.75	Total Reward: -11658.00	Epsilon: 0.000020
+
+
+Episode 160	Average Score over last 100 episodes: -2386.27
+
+
+EPISODE:  161
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  -16
+Time-step:  2000 , Current reward:  1
+Time-step:  2500 , Current reward:  -31
+Time-step:  3000 , Current reward:  -31
+Time-step:  3500 , Current reward:  -9
+Time-step:  4000 , Current reward:  -9
+Time-step:  4500 , Current reward:  -31
+Time-step:  5000 , Current reward:  -31
+Time-step:  5500 , Current reward:  -31
+Time-step:  6000 , Current reward:  -31
+
+
+EPISODE:  162
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  -16
+Time-step:  2000 , Current reward:  1
+GOAL REACHED SUCCESSFULLY!
+
+
+EPISODE:  163
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  -9
+Time-step:  2500 , Current reward:  1
+Time-step:  3000 , Current reward:  1
+Time-step:  3500 , Current reward:  1
+Time-step:  4000 , Current reward:  1
+Time-step:  4500 , Current reward:  1
+Time-step:  5000 , Current reward:  1
+Time-step:  5500 , Current reward:  1
+Time-step:  6000 , Current reward:  1
+
+
+EPISODE:  164
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  1
+Time-step:  2500 , Current reward:  -16
+Time-step:  3000 , Current reward:  1
+Time-step:  3500 , Current reward:  -9
+Time-step:  4000 , Current reward:  1
+Time-step:  4500 , Current reward:  1
+Time-step:  5000 , Current reward:  -9
+Time-step:  5500 , Current reward:  1
+Time-step:  6000 , Current reward:  1
+
+
+EPISODE:  165
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  1
+Time-step:  2500 , Current reward:  1
+Time-step:  3000 , Current reward:  1
+Time-step:  3500 , Current reward:  1
+Time-step:  4000 , Current reward:  1
+GOAL REACHED SUCCESSFULLY!
+
+
+Episode 165	Loss: 338.61	Total Reward: 5522.00	Epsilon: 0.000020
+
+
+Episode 165	Average Score over last 100 episodes: -3707.62
+
+
+EPISODE:  166
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  1
+Time-step:  2500 , Current reward:  1
+Time-step:  3000 , Current reward:  1
+Time-step:  3500 , Current reward:  1
+GOAL REACHED SUCCESSFULLY!
+
+
+EPISODE:  167
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  -26
+Time-step:  2500 , Current reward:  1
+Time-step:  3000 , Current reward:  1
+Time-step:  3500 , Current reward:  -9
+Time-step:  4000 , Current reward:  1
+Time-step:  4500 , Current reward:  1
+Time-step:  5000 , Current reward:  1
+Time-step:  5500 , Current reward:  1
+Time-step:  6000 , Current reward:  1
+
+
+EPISODE:  168
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  1
+GOAL REACHED SUCCESSFULLY!
+
+
+EPISODE:  169
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  1
+Time-step:  2500 , Current reward:  1
+Time-step:  3000 , Current reward:  -9
+Time-step:  3500 , Current reward:  1
+Time-step:  4000 , Current reward:  1
+Time-step:  4500 , Current reward:  1
+Time-step:  5000 , Current reward:  1
+Time-step:  5500 , Current reward:  1
+Time-step:  6000 , Current reward:  1
+
+
+EPISODE:  170
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  1
+Time-step:  2500 , Current reward:  1
+Time-step:  3000 , Current reward:  1
+Time-step:  3500 , Current reward:  1
+Time-step:  4000 , Current reward:  1
+Time-step:  4500 , Current reward:  1
+Time-step:  5000 , Current reward:  -4
+Time-step:  5500 , Current reward:  1
+Time-step:  6000 , Current reward:  1
+
+
+Episode 170	Loss: 1955.72	Total Reward: 1270.00	Epsilon: 0.000020
+
+
+Episode 170	Average Score over last 100 episodes: -3938.16
+
+
+EPISODE:  171
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  -21
+Time-step:  2000 , Current reward:  1
+Time-step:  2500 , Current reward:  1
+Time-step:  3000 , Current reward:  1
+Time-step:  3500 , Current reward:  1
+Time-step:  4000 , Current reward:  -21
+GOAL REACHED SUCCESSFULLY!
+
+
+EPISODE:  172
+
+
+Time-step:  500 , Current reward:  -31
+Time-step:  1000 , Current reward:  -31
+Time-step:  1500 , Current reward:  -31
+Time-step:  2000 , Current reward:  -31
+Time-step:  2500 , Current reward:  -31
+Time-step:  3000 , Current reward:  -231
+Time-step:  3500 , Current reward:  -31
+Time-step:  4000 , Current reward:  -31
+Time-step:  4500 , Current reward:  -31
+Time-step:  5000 , Current reward:  -31
+Time-step:  5500 , Current reward:  -31
+Time-step:  6000 , Current reward:  -31
+
+
+EPISODE:  173
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  1
+Time-step:  2500 , Current reward:  1
+Time-step:  3000 , Current reward:  1
+Time-step:  3500 , Current reward:  1
+Time-step:  4000 , Current reward:  1
+Time-step:  4500 , Current reward:  -16
+Time-step:  5000 , Current reward:  1
+Time-step:  5500 , Current reward:  1
+Time-step:  6000 , Current reward:  -9
+
+
+EPISODE:  174
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  1
+GOAL REACHED SUCCESSFULLY!
+
+
+EPISODE:  175
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  -21
+GOAL REACHED SUCCESSFULLY!
+
+
+Episode 175	Loss: 210.76	Total Reward: 625.00	Epsilon: 0.000020
+
+
+Episode 175	Average Score over last 100 episodes: -6210.29
+
+
+EPISODE:  176
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  1
+Time-step:  2500 , Current reward:  1
+Time-step:  3000 , Current reward:  1
+Time-step:  3500 , Current reward:  1
+Time-step:  4000 , Current reward:  -16
+Time-step:  4500 , Current reward:  -21
+Time-step:  5000 , Current reward:  -21
+Time-step:  5500 , Current reward:  -21
+Time-step:  6000 , Current reward:  -16
+
+
+EPISODE:  177
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  1
+Time-step:  2500 , Current reward:  1
+Time-step:  3000 , Current reward:  1
+Time-step:  3500 , Current reward:  1
+Time-step:  4000 , Current reward:  1
+Time-step:  4500 , Current reward:  1
+Time-step:  5000 , Current reward:  1
+Time-step:  5500 , Current reward:  1
+Time-step:  6000 , Current reward:  1
+
+
+EPISODE:  178
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  -16
+Time-step:  2000 , Current reward:  -16
+Time-step:  2500 , Current reward:  -16
+GOAL REACHED SUCCESSFULLY!
+
+
+EPISODE:  179
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  1
+Time-step:  2500 , Current reward:  -4
+Time-step:  3000 , Current reward:  -4
+Time-step:  3500 , Current reward:  -4
+Time-step:  4000 , Current reward:  1
+Time-step:  4500 , Current reward:  1
+Time-step:  5000 , Current reward:  1
+Time-step:  5500 , Current reward:  1
+Time-step:  6000 , Current reward:  1
+
+
+EPISODE:  180
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  -16
+Time-step:  2000 , Current reward:  1
+Time-step:  2500 , Current reward:  1
+Time-step:  3000 , Current reward:  1
+Time-step:  3500 , Current reward:  1
+Time-step:  4000 , Current reward:  1
+Time-step:  4500 , Current reward:  -9
+Time-step:  5000 , Current reward:  1
+Time-step:  5500 , Current reward:  -4
+Time-step:  6000 , Current reward:  1
+
+
+Episode 180	Loss: 622.20	Total Reward: -3171.00	Epsilon: 0.000020
+
+
+Episode 180	Average Score over last 100 episodes: -6907.89
+
+
+EPISODE:  181
+
+
+Time-step:  500 , Current reward:  -16
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  1
+GOAL REACHED SUCCESSFULLY!
+
+
+EPISODE:  182
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  -9
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  1
+Time-step:  2500 , Current reward:  1
+Time-step:  3000 , Current reward:  1
+Time-step:  3500 , Current reward:  1
+Time-step:  4000 , Current reward:  1
+Time-step:  4500 , Current reward:  1
+GOAL REACHED SUCCESSFULLY!
+
+
+EPISODE:  183
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  -16
+Time-step:  2000 , Current reward:  -16
+GOAL REACHED SUCCESSFULLY!
+
+
+EPISODE:  184
+
+
+Time-step:  500 , Current reward:  -9
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  1
+GOAL REACHED SUCCESSFULLY!
+
+
+EPISODE:  185
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  1
+GOAL REACHED SUCCESSFULLY!
+
+
+Episode 185	Loss: 1343.05	Total Reward: 4528.00	Epsilon: 0.000020
+
+
+Episode 185	Average Score over last 100 episodes: -6845.45
+
+
+EPISODE:  186
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  -21
+Time-step:  2000 , Current reward:  1
+Time-step:  2500 , Current reward:  1
+Time-step:  3000 , Current reward:  1
+Time-step:  3500 , Current reward:  1
+Time-step:  4000 , Current reward:  1
+Time-step:  4500 , Current reward:  1
+Time-step:  5000 , Current reward:  1
+Time-step:  5500 , Current reward:  -4
+Time-step:  6000 , Current reward:  1
+
+
+EPISODE:  187
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  -9
+Time-step:  2500 , Current reward:  1
+Time-step:  3000 , Current reward:  1
+Time-step:  3500 , Current reward:  1
+Time-step:  4000 , Current reward:  1
+Time-step:  4500 , Current reward:  1
+Time-step:  5000 , Current reward:  1
+Time-step:  5500 , Current reward:  1
+Time-step:  6000 , Current reward:  1
+
+
+EPISODE:  188
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  -9
+Time-step:  1500 , Current reward:  -16
+Time-step:  2000 , Current reward:  1
+Time-step:  2500 , Current reward:  1
+Time-step:  3000 , Current reward:  1
+Time-step:  3500 , Current reward:  1
+Time-step:  4000 , Current reward:  1
+Time-step:  4500 , Current reward:  1
+Time-step:  5000 , Current reward:  1
+Time-step:  5500 , Current reward:  1
+Time-step:  6000 , Current reward:  1
+
+
+EPISODE:  189
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  -9
+Time-step:  2000 , Current reward:  1
+GOAL REACHED SUCCESSFULLY!
+
+
+EPISODE:  190
+
+
+Time-step:  500 , Current reward:  -4
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  -9
+Time-step:  2500 , Current reward:  1
+Time-step:  3000 , Current reward:  1
+Time-step:  3500 , Current reward:  1
+Time-step:  4000 , Current reward:  -9
+Time-step:  4500 , Current reward:  -9
+Time-step:  5000 , Current reward:  1
+Time-step:  5500 , Current reward:  1
+Time-step:  6000 , Current reward:  1
+
+
+Episode 190	Loss: 221.83	Total Reward: -3502.00	Epsilon: 0.000020
+
+
+Episode 190	Average Score over last 100 episodes: -7073.67
+
+
+EPISODE:  191
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  -21
+Time-step:  2000 , Current reward:  -16
+Time-step:  2500 , Current reward:  -21
+Time-step:  3000 , Current reward:  -4
+GOAL REACHED SUCCESSFULLY!
+
+
+EPISODE:  192
+
+
+Time-step:  500 , Current reward:  -9
+Time-step:  1000 , Current reward:  -16
+Time-step:  1500 , Current reward:  -9
+Time-step:  2000 , Current reward:  1
+Time-step:  2500 , Current reward:  1
+Time-step:  3000 , Current reward:  -9
+Time-step:  3500 , Current reward:  1
+Time-step:  4000 , Current reward:  1
+Time-step:  4500 , Current reward:  1
+GOAL REACHED SUCCESSFULLY!
+
+
+EPISODE:  193
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  -21
+Time-step:  2500 , Current reward:  1
+Time-step:  3000 , Current reward:  -14
+Time-step:  3500 , Current reward:  1
+Time-step:  4000 , Current reward:  1
+Time-step:  4500 , Current reward:  1
+GOAL REACHED SUCCESSFULLY!
+
+
+EPISODE:  194
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  1
+GOAL REACHED SUCCESSFULLY!
+
+
+EPISODE:  195
+
+
+Time-step:  500 , Current reward:  -4
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  1
+Time-step:  2500 , Current reward:  1
+Time-step:  3000 , Current reward:  1
+Time-step:  3500 , Current reward:  1
+Time-step:  4000 , Current reward:  -9
+GOAL REACHED SUCCESSFULLY!
+
+
+Episode 195	Loss: 1005.60	Total Reward: -3126.00	Epsilon: 0.000020
+
+
+Episode 195	Average Score over last 100 episodes: -7506.39
+
+
+EPISODE:  196
+
+
+Time-step:  500 , Current reward:  -14
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  1
+Time-step:  2500 , Current reward:  1
+Time-step:  3000 , Current reward:  1
+Time-step:  3500 , Current reward:  1
+Time-step:  4000 , Current reward:  1
+Time-step:  4500 , Current reward:  1
+Time-step:  5000 , Current reward:  1
+GOAL REACHED SUCCESSFULLY!
+
+
+EPISODE:  197
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  1
+GOAL REACHED SUCCESSFULLY!
+
+
+EPISODE:  198
+
+
+Time-step:  500 , Current reward:  -16
+Time-step:  1000 , Current reward:  -21
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  1
+Time-step:  2500 , Current reward:  1
+Time-step:  3000 , Current reward:  1
+Time-step:  3500 , Current reward:  1
+Time-step:  4000 , Current reward:  1
+GOAL REACHED SUCCESSFULLY!
+
+
+EPISODE:  199
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  -21
+Time-step:  1500 , Current reward:  -14
+Time-step:  2000 , Current reward:  -31
+Time-step:  2500 , Current reward:  1
+Time-step:  3000 , Current reward:  -4
+Time-step:  3500 , Current reward:  1
+Time-step:  4000 , Current reward:  1
+Time-step:  4500 , Current reward:  -4
+Time-step:  5000 , Current reward:  1
+Time-step:  5500 , Current reward:  -31
+Time-step:  6000 , Current reward:  -31
+
+
+EPISODE:  200
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  -16
+Time-step:  2000 , Current reward:  1
+Time-step:  2500 , Current reward:  1
+Time-step:  3000 , Current reward:  1
+Time-step:  3500 , Current reward:  1
+Time-step:  4000 , Current reward:  1
+GOAL REACHED SUCCESSFULLY!
+
+
+Episode 200	Loss: 1418.42	Total Reward: 6297.00	Epsilon: 0.000020
+
+
+Episode 200	Average Score over last 100 episodes: -7077.88
+
+
+EPISODE:  201
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  1
+Time-step:  2500 , Current reward:  1
+Time-step:  3000 , Current reward:  -9
+Time-step:  3500 , Current reward:  1
+Time-step:  4000 , Current reward:  1
+GOAL REACHED SUCCESSFULLY!
+
+
+EPISODE:  202
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  -9
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  1
+GOAL REACHED SUCCESSFULLY!
+
+
+EPISODE:  203
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  -16
+Time-step:  2000 , Current reward:  1
+Time-step:  2500 , Current reward:  -4
+Time-step:  3000 , Current reward:  1
+Time-step:  3500 , Current reward:  1
+Time-step:  4000 , Current reward:  1
+GOAL REACHED SUCCESSFULLY!
+
+
+EPISODE:  204
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  1
+Time-step:  2500 , Current reward:  1
+Time-step:  3000 , Current reward:  1
+Time-step:  3500 , Current reward:  1
+Time-step:  4000 , Current reward:  1
+Time-step:  4500 , Current reward:  1
+GOAL REACHED SUCCESSFULLY!
+
+
+EPISODE:  205
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  -16
+GOAL REACHED SUCCESSFULLY!
+
+
+Episode 205	Loss: 677.37	Total Reward: 4164.00	Epsilon: 0.000020
+
+
+Episode 205	Average Score over last 100 episodes: -4218.62
+
+
+EPISODE:  206
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  -16
+GOAL REACHED SUCCESSFULLY!
+
+
+EPISODE:  207
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  -21
+Time-step:  2000 , Current reward:  -16
+GOAL REACHED SUCCESSFULLY!
+
+
+EPISODE:  208
+
+
+Time-step:  500 , Current reward:  -21
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  1
+GOAL REACHED SUCCESSFULLY!
+
+
+EPISODE:  209
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  -21
+Time-step:  2500 , Current reward:  1
+GOAL REACHED SUCCESSFULLY!
+
+
+EPISODE:  210
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  -9
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  -16
+Time-step:  2500 , Current reward:  1
+Time-step:  3000 , Current reward:  1401
+Time-step:  3500 , Current reward:  1
+GOAL REACHED SUCCESSFULLY!
+
+
+Episode 210	Loss: 655.44	Total Reward: 2720.00	Epsilon: 0.000020
+
+
+Episode 210	Average Score over last 100 episodes: -4378.12
+
+
+EPISODE:  211
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  -21
+Time-step:  2000 , Current reward:  1
+Time-step:  2500 , Current reward:  1
+Time-step:  3000 , Current reward:  1
+Time-step:  3500 , Current reward:  1
+GOAL REACHED SUCCESSFULLY!
+
+
+EPISODE:  212
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  1
+Time-step:  2500 , Current reward:  1
+Time-step:  3000 , Current reward:  1
+Time-step:  3500 , Current reward:  1
+Time-step:  4000 , Current reward:  1
+GOAL REACHED SUCCESSFULLY!
+
+
+EPISODE:  213
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  1
+GOAL REACHED SUCCESSFULLY!
+
+
+EPISODE:  214
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  1
+Time-step:  2500 , Current reward:  1
+Time-step:  3000 , Current reward:  1
+Time-step:  3500 , Current reward:  1
+Time-step:  4000 , Current reward:  -16
+GOAL REACHED SUCCESSFULLY!
+
+
+EPISODE:  215
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  -16
+Time-step:  2500 , Current reward:  1
+Time-step:  3000 , Current reward:  -9
+Time-step:  3500 , Current reward:  1
+Time-step:  4000 , Current reward:  -16
+GOAL REACHED SUCCESSFULLY!
+
+
+Episode 215	Loss: 469.51	Total Reward: 2604.00	Epsilon: 0.000020
+
+
+Episode 215	Average Score over last 100 episodes: -3537.70
+
+
+EPISODE:  216
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  1
+Time-step:  2500 , Current reward:  1
+Time-step:  3000 , Current reward:  1
+Time-step:  3500 , Current reward:  1
+Time-step:  4000 , Current reward:  1
+GOAL REACHED SUCCESSFULLY!
+
+
+EPISODE:  217
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  1
+Time-step:  2500 , Current reward:  1
+Time-step:  3000 , Current reward:  -9
+Time-step:  3500 , Current reward:  1
+Time-step:  4000 , Current reward:  1
+GOAL REACHED SUCCESSFULLY!
+
+
+EPISODE:  218
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  1
+Time-step:  2500 , Current reward:  1
+Time-step:  3000 , Current reward:  -9
+Time-step:  3500 , Current reward:  1
+Time-step:  4000 , Current reward:  1
+GOAL REACHED SUCCESSFULLY!
+
+
+EPISODE:  219
+
+
+Time-step:  500 , Current reward:  -16
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  1
+Time-step:  2500 , Current reward:  1
+Time-step:  3000 , Current reward:  -9
+Time-step:  3500 , Current reward:  1
+Time-step:  4000 , Current reward:  -16
+GOAL REACHED SUCCESSFULLY!
+
+
+EPISODE:  220
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  -4
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  1
+Time-step:  2500 , Current reward:  1
+Time-step:  3000 , Current reward:  1
+GOAL REACHED SUCCESSFULLY!
+
+
+Episode 220	Loss: 816.26	Total Reward: 372.00	Epsilon: 0.000020
+
+
+Episode 220	Average Score over last 100 episodes: -2779.20
+
+
+EPISODE:  221
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  1
+Time-step:  2500 , Current reward:  1
+Time-step:  3000 , Current reward:  1
+Time-step:  3500 , Current reward:  1
+Time-step:  4000 , Current reward:  1
+GOAL REACHED SUCCESSFULLY!
+
+
+EPISODE:  222
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  -9
+Time-step:  2500 , Current reward:  1
+Time-step:  3000 , Current reward:  1
+Time-step:  3500 , Current reward:  1
+Time-step:  4000 , Current reward:  1
+Time-step:  4500 , Current reward:  1
+Time-step:  5000 , Current reward:  1
+Time-step:  5500 , Current reward:  1
+Time-step:  6000 , Current reward:  1
+
+
+EPISODE:  223
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  1
+Time-step:  2500 , Current reward:  1
+Time-step:  3000 , Current reward:  1
+Time-step:  3500 , Current reward:  1
+Time-step:  4000 , Current reward:  1
+GOAL REACHED SUCCESSFULLY!
+
+
+EPISODE:  224
+
+
+Time-step:  500 , Current reward:  -26
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  -14
+Time-step:  2500 , Current reward:  -31
+Time-step:  3000 , Current reward:  -14
+Time-step:  3500 , Current reward:  -14
+Time-step:  4000 , Current reward:  -9
+Time-step:  4500 , Current reward:  -9
+Time-step:  5000 , Current reward:  -21
+Time-step:  5500 , Current reward:  -26
+Time-step:  6000 , Current reward:  1
+
+
+EPISODE:  225
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  1
+Time-step:  2500 , Current reward:  -9
+Time-step:  3000 , Current reward:  1
+GOAL REACHED SUCCESSFULLY!
+
+
+Episode 225	Loss: 1172.65	Total Reward: -3757.00	Epsilon: 0.000020
+
+
+Episode 225	Average Score over last 100 episodes: -3602.40
+
+
+EPISODE:  226
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  -21
+Time-step:  2000 , Current reward:  1
+GOAL REACHED SUCCESSFULLY!
+
+
+EPISODE:  227
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  1
+Time-step:  2500 , Current reward:  -31
+Time-step:  3000 , Current reward:  -4
+Time-step:  3500 , Current reward:  1
+Time-step:  4000 , Current reward:  -21
+Time-step:  4500 , Current reward:  1
+Time-step:  5000 , Current reward:  1
+Time-step:  5500 , Current reward:  -21
+Time-step:  6000 , Current reward:  -31
+
+
+EPISODE:  228
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  -21
+Time-step:  2000 , Current reward:  1
+Time-step:  2500 , Current reward:  1
+Time-step:  3000 , Current reward:  -21
+Time-step:  3500 , Current reward:  1
+Time-step:  4000 , Current reward:  1
+Time-step:  4500 , Current reward:  1
+Time-step:  5000 , Current reward:  1
+Time-step:  5500 , Current reward:  -4
+Time-step:  6000 , Current reward:  1
+
+
+EPISODE:  229
+
+
+Time-step:  500 , Current reward:  -16
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  1
+Time-step:  2500 , Current reward:  1
+Time-step:  3000 , Current reward:  1
+Time-step:  3500 , Current reward:  1
+Time-step:  4000 , Current reward:  -16
+GOAL REACHED SUCCESSFULLY!
+
+
+EPISODE:  230
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  -16
+Time-step:  2000 , Current reward:  -16
+Time-step:  2500 , Current reward:  1
+Time-step:  3000 , Current reward:  1
+Time-step:  3500 , Current reward:  1
+Time-step:  4000 , Current reward:  -16
+GOAL REACHED SUCCESSFULLY!
+
+
+Episode 230	Loss: 424.25	Total Reward: 1016.00	Epsilon: 0.000020
+
+
+Episode 230	Average Score over last 100 episodes: -4503.52
+
+
+EPISODE:  231
+
+
+Time-step:  500 , Current reward:  -16
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  1
+Time-step:  2500 , Current reward:  1
+Time-step:  3000 , Current reward:  1
+Time-step:  3500 , Current reward:  1
+Time-step:  4000 , Current reward:  -16
+GOAL REACHED SUCCESSFULLY!
+
+
+EPISODE:  232
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  -16
+Time-step:  2000 , Current reward:  -16
+GOAL REACHED SUCCESSFULLY!
+
+
+EPISODE:  233
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  1
+Time-step:  2500 , Current reward:  1
+Time-step:  3000 , Current reward:  1
+Time-step:  3500 , Current reward:  1
+Time-step:  4000 , Current reward:  1
+Time-step:  4500 , Current reward:  1
+Time-step:  5000 , Current reward:  1
+Time-step:  5500 , Current reward:  1
+Time-step:  6000 , Current reward:  1
+
+
+EPISODE:  234
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  1
+Time-step:  2500 , Current reward:  1
+Time-step:  3000 , Current reward:  -9
+Time-step:  3500 , Current reward:  -9
+Time-step:  4000 , Current reward:  -21
+GOAL REACHED SUCCESSFULLY!
+
+
+EPISODE:  235
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  -21
+Time-step:  2500 , Current reward:  -31
+Time-step:  3000 , Current reward:  -16
+Time-step:  3500 , Current reward:  -21
+Time-step:  4000 , Current reward:  -221
+Time-step:  4500 , Current reward:  -221
+Time-step:  5000 , Current reward:  -221
+Time-step:  5500 , Current reward:  -221
+Time-step:  6000 , Current reward:  -221
+
+
+Episode 235	Loss: 825.76	Total Reward: -556928.00	Epsilon: 0.000020
+
+
+Episode 235	Average Score over last 100 episodes: -10333.18
+
+
+EPISODE:  236
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  -4
+Time-step:  2500 , Current reward:  -4
+Time-step:  3000 , Current reward:  -4
+Time-step:  3500 , Current reward:  -16
+Time-step:  4000 , Current reward:  -21
+GOAL REACHED SUCCESSFULLY!
+
+
+EPISODE:  237
+
+
+Time-step:  500 , Current reward:  -16
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  1
+Time-step:  2500 , Current reward:  -4
+Time-step:  3000 , Current reward:  1
+Time-step:  3500 , Current reward:  -21
+Time-step:  4000 , Current reward:  1
+Time-step:  4500 , Current reward:  -31
+Time-step:  5000 , Current reward:  -21
+Time-step:  5500 , Current reward:  -31
+Time-step:  6000 , Current reward:  -21
+
+
+EPISODE:  238
+
+
+Time-step:  500 , Current reward:  -21
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  -21
+Time-step:  2500 , Current reward:  -21
+Time-step:  3000 , Current reward:  1
+Time-step:  3500 , Current reward:  1
+Time-step:  4000 , Current reward:  1
+Time-step:  4500 , Current reward:  1
+Time-step:  5000 , Current reward:  1
+Time-step:  5500 , Current reward:  -9
+GOAL REACHED SUCCESSFULLY!
+
+
+EPISODE:  239
+
+
+Time-step:  500 , Current reward:  -16
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  1
+Time-step:  2500 , Current reward:  1
+Time-step:  3000 , Current reward:  1
+Time-step:  3500 , Current reward:  1
+Time-step:  4000 , Current reward:  1
+Time-step:  4500 , Current reward:  1
+Time-step:  5000 , Current reward:  1
+Time-step:  5500 , Current reward:  1
+Time-step:  6000 , Current reward:  -31
+
+
+EPISODE:  240
+
+
+Time-step:  500 , Current reward:  -31
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  -21
+Time-step:  2500 , Current reward:  1
+Time-step:  3000 , Current reward:  1
+Time-step:  3500 , Current reward:  -21
+Time-step:  4000 , Current reward:  1
+Time-step:  4500 , Current reward:  1
+Time-step:  5000 , Current reward:  -21
+Time-step:  5500 , Current reward:  1
+Time-step:  6000 , Current reward:  -16
+
+
+Episode 240	Loss: 1474.69	Total Reward: -89973.00	Epsilon: 0.000020
+
+
+Episode 240	Average Score over last 100 episodes: -12841.94
+
+
+EPISODE:  241
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  -9
+Time-step:  1500 , Current reward:  -4
+Time-step:  2000 , Current reward:  1
+Time-step:  2500 , Current reward:  -26
+Time-step:  3000 , Current reward:  -31
+Time-step:  3500 , Current reward:  -31
+Time-step:  4000 , Current reward:  1
+Time-step:  4500 , Current reward:  -16
+Time-step:  5000 , Current reward:  -31
+Time-step:  5500 , Current reward:  -221
+Time-step:  6000 , Current reward:  -221
+
+
+EPISODE:  242
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  1
+Time-step:  2500 , Current reward:  1
+GOAL REACHED SUCCESSFULLY!
+
+
+EPISODE:  243
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  1
+Time-step:  2500 , Current reward:  -31
+Time-step:  3000 , Current reward:  -21
+Time-step:  3500 , Current reward:  -21
+Time-step:  4000 , Current reward:  -16
+Time-step:  4500 , Current reward:  -21
+Time-step:  5000 , Current reward:  -21
+Time-step:  5500 , Current reward:  -221
+Time-step:  6000 , Current reward:  -221
+
+
+EPISODE:  244
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  -21
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  1
+Time-step:  2500 , Current reward:  -31
+Time-step:  3000 , Current reward:  1
+Time-step:  3500 , Current reward:  1
+Time-step:  4000 , Current reward:  1
+Time-step:  4500 , Current reward:  -16
+Time-step:  5000 , Current reward:  -31
+Time-step:  5500 , Current reward:  -221
+Time-step:  6000 , Current reward:  -16
+
+
+EPISODE:  245
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  -16
+Time-step:  2500 , Current reward:  1
+Time-step:  3000 , Current reward:  1
+Time-step:  3500 , Current reward:  1
+Time-step:  4000 , Current reward:  1
+Time-step:  4500 , Current reward:  1
+Time-step:  5000 , Current reward:  -21
+Time-step:  5500 , Current reward:  -16
+Time-step:  6000 , Current reward:  1
+
+
+Episode 245	Loss: 3836.39	Total Reward: -34427.00	Epsilon: 0.000020
+
+
+Episode 245	Average Score over last 100 episodes: -18259.00
+
+
+EPISODE:  246
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  1
+Time-step:  2500 , Current reward:  1
+Time-step:  3000 , Current reward:  1
+Time-step:  3500 , Current reward:  1
+Time-step:  4000 , Current reward:  1
+Time-step:  4500 , Current reward:  -21
+Time-step:  5000 , Current reward:  -21
+GOAL REACHED SUCCESSFULLY!
+
+
+EPISODE:  247
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  -21
+Time-step:  2500 , Current reward:  -16
+Time-step:  3000 , Current reward:  -21
+Time-step:  3500 , Current reward:  1
+Time-step:  4000 , Current reward:  1
+Time-step:  4500 , Current reward:  1
+Time-step:  5000 , Current reward:  1
+Time-step:  5500 , Current reward:  1
+Time-step:  6000 , Current reward:  1
+
+
+EPISODE:  248
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  -21
+Time-step:  2500 , Current reward:  -21
+Time-step:  3000 , Current reward:  1
+Time-step:  3500 , Current reward:  1
+Time-step:  4000 , Current reward:  -16
+GOAL REACHED SUCCESSFULLY!
+
+
+EPISODE:  249
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  -16
+Time-step:  2500 , Current reward:  1
+Time-step:  3000 , Current reward:  1
+GOAL REACHED SUCCESSFULLY!
+
+
+EPISODE:  250
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  -14
+Time-step:  2500 , Current reward:  1
+Time-step:  3000 , Current reward:  1
+GOAL REACHED SUCCESSFULLY!
+
+
+Episode 250	Loss: 2196.30	Total Reward: 2656.00	Epsilon: 0.000020
+
+
+Episode 250	Average Score over last 100 episodes: -18711.89
+
+
+EPISODE:  251
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  -14
+Time-step:  2500 , Current reward:  1
+Time-step:  3000 , Current reward:  -9
+Time-step:  3500 , Current reward:  1
+Time-step:  4000 , Current reward:  1
+Time-step:  4500 , Current reward:  1
+Time-step:  5000 , Current reward:  -31
+GOAL REACHED SUCCESSFULLY!
+
+
+EPISODE:  252
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  -9
+Time-step:  2000 , Current reward:  1
+Time-step:  2500 , Current reward:  1
+Time-step:  3000 , Current reward:  1
+GOAL REACHED SUCCESSFULLY!
+
+
+EPISODE:  253
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  -16
+Time-step:  2500 , Current reward:  1
+Time-step:  3000 , Current reward:  1
+GOAL REACHED SUCCESSFULLY!
+
+
+EPISODE:  254
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  -16
+Time-step:  2500 , Current reward:  1
+Time-step:  3000 , Current reward:  1
+GOAL REACHED SUCCESSFULLY!
+
+
+EPISODE:  255
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  1
+Time-step:  2500 , Current reward:  1
+Time-step:  3000 , Current reward:  1
+GOAL REACHED SUCCESSFULLY!
+
+
+Episode 255	Loss: 1379.74	Total Reward: 3400.00	Epsilon: 0.000020
+
+
+Episode 255	Average Score over last 100 episodes: -18402.21
+
+
+EPISODE:  256
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  1
+Time-step:  2500 , Current reward:  1
+Time-step:  3000 , Current reward:  1
+GOAL REACHED SUCCESSFULLY!
+
+
+EPISODE:  257
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  -4
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  1
+Time-step:  2500 , Current reward:  -31
+Time-step:  3000 , Current reward:  -31
+Time-step:  3500 , Current reward:  -31
+GOAL REACHED SUCCESSFULLY!
+
+
+EPISODE:  258
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  1
+Time-step:  2500 , Current reward:  1
+Time-step:  3000 , Current reward:  1
+GOAL REACHED SUCCESSFULLY!
+
+
+EPISODE:  259
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  -21
+Time-step:  1500 , Current reward:  -9
+Time-step:  2000 , Current reward:  1
+Time-step:  2500 , Current reward:  -4
+Time-step:  3000 , Current reward:  1
+GOAL REACHED SUCCESSFULLY!
+
+
+EPISODE:  260
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  1
+Time-step:  2500 , Current reward:  1
+Time-step:  3000 , Current reward:  1
+GOAL REACHED SUCCESSFULLY!
+
+
+Episode 260	Loss: 998.21	Total Reward: 3067.00	Epsilon: 0.000020
+
+
+Episode 260	Average Score over last 100 episodes: -18598.17
+
+
+EPISODE:  261
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  1
+Time-step:  2500 , Current reward:  -9
+Time-step:  3000 , Current reward:  1
+GOAL REACHED SUCCESSFULLY!
+
+
+EPISODE:  262
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  1
+Time-step:  2500 , Current reward:  1
+Time-step:  3000 , Current reward:  1
+GOAL REACHED SUCCESSFULLY!
+
+
+EPISODE:  263
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  1
+Time-step:  2500 , Current reward:  1
+Time-step:  3000 , Current reward:  1
+GOAL REACHED SUCCESSFULLY!
+
+
+EPISODE:  264
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  1
+Time-step:  2500 , Current reward:  1
+Time-step:  3000 , Current reward:  1
+GOAL REACHED SUCCESSFULLY!
+
+
+EPISODE:  265
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  -9
+Time-step:  2500 , Current reward:  1
+GOAL REACHED SUCCESSFULLY!
+
+
+Episode 265	Loss: 678.53	Total Reward: 3739.00	Epsilon: 0.000020
+
+
+Episode 265	Average Score over last 100 episodes: -17380.04
+
+
+EPISODE:  266
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  1
+Time-step:  2500 , Current reward:  1
+GOAL REACHED SUCCESSFULLY!
+
+
+EPISODE:  267
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  1
+Time-step:  2500 , Current reward:  -16
+GOAL REACHED SUCCESSFULLY!
+
+
+EPISODE:  268
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  1
+Time-step:  2500 , Current reward:  1
+GOAL REACHED SUCCESSFULLY!
+
+
+EPISODE:  269
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  1
+Time-step:  2500 , Current reward:  1
+GOAL REACHED SUCCESSFULLY!
+
+
+EPISODE:  270
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  1
+Time-step:  2500 , Current reward:  1
+GOAL REACHED SUCCESSFULLY!
+
+
+Episode 270	Loss: 654.18	Total Reward: 3898.00	Epsilon: 0.000020
+
+
+Episode 270	Average Score over last 100 episodes: -17221.99
+
+
+EPISODE:  271
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  1
+Time-step:  2500 , Current reward:  -26
+GOAL REACHED SUCCESSFULLY!
+
+
+EPISODE:  272
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  1
+Time-step:  2500 , Current reward:  1
+GOAL REACHED SUCCESSFULLY!
+
+
+EPISODE:  273
+
+
+Time-step:  500 , Current reward:  -21
+Time-step:  1000 , Current reward:  -9
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  1
+Time-step:  2500 , Current reward:  1
+Time-step:  3000 , Current reward:  1
+Time-step:  3500 , Current reward:  -16
+Time-step:  4000 , Current reward:  -31
+Time-step:  4500 , Current reward:  -31
+Time-step:  5000 , Current reward:  1
+Time-step:  5500 , Current reward:  -21
+Time-step:  6000 , Current reward:  -4
+
+
+EPISODE:  274
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  1
+Time-step:  2500 , Current reward:  -9
+Time-step:  3000 , Current reward:  1
+Time-step:  3500 , Current reward:  1
+Time-step:  4000 , Current reward:  1
+Time-step:  4500 , Current reward:  1
+Time-step:  5000 , Current reward:  -9
+GOAL REACHED SUCCESSFULLY!
+
+
+EPISODE:  275
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  -4
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  1
+Time-step:  2500 , Current reward:  1
+Time-step:  3000 , Current reward:  1
+Time-step:  3500 , Current reward:  1
+Time-step:  4000 , Current reward:  -21
+Time-step:  4500 , Current reward:  1
+Time-step:  5000 , Current reward:  -9
+Time-step:  5500 , Current reward:  1
+GOAL REACHED SUCCESSFULLY!
+
+
+Episode 275	Loss: 893.73	Total Reward: -5349.00	Epsilon: 0.000020
+
+
+Episode 275	Average Score over last 100 episodes: -16016.37
+
+
+EPISODE:  276
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  1
+Time-step:  2500 , Current reward:  1
+GOAL REACHED SUCCESSFULLY!
+
+
+EPISODE:  277
+
+
+Time-step:  500 , Current reward:  -9
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  1
+Time-step:  2500 , Current reward:  1
+GOAL REACHED SUCCESSFULLY!
+
+
+EPISODE:  278
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  1
+Time-step:  2500 , Current reward:  1
+GOAL REACHED SUCCESSFULLY!
+
+
+EPISODE:  279
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  1
+Time-step:  2500 , Current reward:  1
+GOAL REACHED SUCCESSFULLY!
+
+
+EPISODE:  280
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  1
+Time-step:  2500 , Current reward:  1
+GOAL REACHED SUCCESSFULLY!
+
+
+Episode 280	Loss: 428.01	Total Reward: 3455.00	Epsilon: 0.000020
+
+
+Episode 280	Average Score over last 100 episodes: -15287.93
+
+
+EPISODE:  281
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  1
+Time-step:  2500 , Current reward:  1
+GOAL REACHED SUCCESSFULLY!
+
+
+EPISODE:  282
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  -9
+Time-step:  2500 , Current reward:  1
+GOAL REACHED SUCCESSFULLY!
+
+
+EPISODE:  283
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  1
+Time-step:  2500 , Current reward:  1
+GOAL REACHED SUCCESSFULLY!
+
+
+EPISODE:  284
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  1
+Time-step:  2500 , Current reward:  1
+GOAL REACHED SUCCESSFULLY!
+
+
+EPISODE:  285
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  1
+Time-step:  2500 , Current reward:  1
+GOAL REACHED SUCCESSFULLY!
+
+
+Episode 285	Loss: 441.58	Total Reward: 6591.00	Epsilon: 0.000020
+
+
+Episode 285	Average Score over last 100 episodes: -15162.43
+
+
+EPISODE:  286
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  1
+Time-step:  2500 , Current reward:  1
+GOAL REACHED SUCCESSFULLY!
+
+
+EPISODE:  287
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  1
+Time-step:  2500 , Current reward:  1
+Time-step:  3000 , Current reward:  1
+GOAL REACHED SUCCESSFULLY!
+
+
+EPISODE:  288
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  -9
+Time-step:  2500 , Current reward:  -4
+Time-step:  3000 , Current reward:  1
+GOAL REACHED SUCCESSFULLY!
+
+
+EPISODE:  289
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  1
+Time-step:  2500 , Current reward:  -16
+Time-step:  3000 , Current reward:  1
+GOAL REACHED SUCCESSFULLY!
+
+
+EPISODE:  290
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  1
+Time-step:  2500 , Current reward:  1
+Time-step:  3000 , Current reward:  1
+GOAL REACHED SUCCESSFULLY!
+
+
+Episode 290	Loss: 985.82	Total Reward: 6815.00	Epsilon: 0.000020
+
+
+Episode 290	Average Score over last 100 episodes: -14891.15
+
+
+EPISODE:  291
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  1
+Time-step:  2500 , Current reward:  1
+Time-step:  3000 , Current reward:  1
+GOAL REACHED SUCCESSFULLY!
+
+
+EPISODE:  292
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  1
+Time-step:  2500 , Current reward:  1
+Time-step:  3000 , Current reward:  1
+GOAL REACHED SUCCESSFULLY!
+
+
+EPISODE:  293
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  1
+Time-step:  2500 , Current reward:  1
+GOAL REACHED SUCCESSFULLY!
+
+
+EPISODE:  294
+
+
+Time-step:  500 , Current reward:  -9
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  1
+Time-step:  2500 , Current reward:  -9
+Time-step:  3000 , Current reward:  -16
+GOAL REACHED SUCCESSFULLY!
+
+
+EPISODE:  295
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  1
+Time-step:  2500 , Current reward:  1
+GOAL REACHED SUCCESSFULLY!
+
+
+Episode 295	Loss: 387.28	Total Reward: 2164.00	Epsilon: 0.000020
+
+
+Episode 295	Average Score over last 100 episodes: -14618.31
+
+
+EPISODE:  296
+
+
+Time-step:  500 , Current reward:  -9
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  1
+Time-step:  2500 , Current reward:  1
+Time-step:  3000 , Current reward:  -16
+GOAL REACHED SUCCESSFULLY!
+
+
+EPISODE:  297
+
+
+Time-step:  500 , Current reward:  -9
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  1
+Time-step:  2500 , Current reward:  1
+GOAL REACHED SUCCESSFULLY!
+
+
+EPISODE:  298
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  1
+Time-step:  2500 , Current reward:  1
+GOAL REACHED SUCCESSFULLY!
+
+
+EPISODE:  299
+
+
+Time-step:  500 , Current reward:  -9
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  1
+Time-step:  2500 , Current reward:  1
+Time-step:  3000 , Current reward:  1
+GOAL REACHED SUCCESSFULLY!
+
+
+EPISODE:  300
+
+
+Time-step:  500 , Current reward:  1
+Time-step:  1000 , Current reward:  1
+Time-step:  1500 , Current reward:  1
+Time-step:  2000 , Current reward:  1
+Time-step:  2500 , Current reward:  1
+Time-step:  3000 , Current reward:  1
+Time-step:  3500 , Current reward:  1
+Time-step:  4000 , Current reward:  1
+Time-step:  4500 , Current reward:  1
+Time-step:  5000 , Current reward:  -21
+Time-step:  5500 , Current reward:  -21
+GOAL REACHED SUCCESSFULLY!
+
+
+Episode 300	Loss: 343.08	Total Reward: -25551.00	Epsilon: 0.000020
+
+
+Episode 300	Average Score over last 100 episodes: -14490.92
+
+

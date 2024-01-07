@@ -1,0 +1,777 @@
+EPISODE:  1
+
+
+GOAL REACHED!
+EPISODE:  2
+
+
+EPISODE:  3
+
+
+EPISODE:  4
+
+
+EPISODE:  5
+
+
+EPISODE:  6
+
+
+EPISODE:  7
+
+
+EPISODE:  8
+
+
+EPISODE:  9
+
+
+EPISODE:  10
+
+
+GOAL REACHED!
+Episode:  10  | Episode Length:  28600  | Episode Return:  -805.724525900252  | Loss:  7.2313385009765625
+
+
+Average Return (last  10  episodes):  -1198.4652054955698
+Average Loss (last  10  episodes):  6.897441482543945
+
+
+EPISODE:  11
+
+
+EPISODE:  12
+
+
+GOAL REACHED!
+EPISODE:  13
+
+
+EPISODE:  14
+
+
+GOAL REACHED!
+EPISODE:  15
+
+
+GOAL REACHED!
+EPISODE:  16
+
+
+GOAL REACHED!
+EPISODE:  17
+
+
+EPISODE:  18
+
+
+EPISODE:  19
+
+
+GOAL REACHED!
+EPISODE:  20
+
+
+Episode:  20  | Episode Length:  40000  | Episode Return:  -1577.8746827948744  | Loss:  -11.501113891601562
+
+
+Average Return (last  10  episodes):  -1257.1512693966558
+Average Loss (last  10  episodes):  -3.229658317565918
+
+
+EPISODE:  21
+
+
+GOAL REACHED!
+EPISODE:  22
+
+
+GOAL REACHED!
+EPISODE:  23
+
+
+EPISODE:  24
+
+
+EPISODE:  25
+
+
+EPISODE:  26
+
+
+EPISODE:  27
+
+
+EPISODE:  28
+
+
+EPISODE:  29
+
+
+EPISODE:  30
+
+
+Episode:  30  | Episode Length:  40000  | Episode Return:  -1410.5789030497185  | Loss:  -118.48424530029297
+
+
+Average Return (last  10  episodes):  -1333.3367754714188
+Average Loss (last  10  episodes):  -35.540246391296385
+
+
+EPISODE:  31
+
+
+EPISODE:  32
+
+
+EPISODE:  33
+
+
+EPISODE:  34
+
+
+EPISODE:  35
+
+
+EPISODE:  36
+
+
+EPISODE:  37
+
+
+EPISODE:  38
+
+
+GOAL REACHED!
+EPISODE:  39
+
+
+EPISODE:  40
+
+
+Episode:  40  | Episode Length:  40000  | Episode Return:  -1235.0143391162567  | Loss:  -194.9230499267578
+
+
+Average Return (last  10  episodes):  -1275.4580222920872
+Average Loss (last  10  episodes):  -106.44870738983154
+
+
+EPISODE:  41
+
+
+EPISODE:  42
+
+
+EPISODE:  43
+
+
+EPISODE:  44
+
+
+EPISODE:  45
+
+
+EPISODE:  46
+
+
+EPISODE:  47
+
+
+GOAL REACHED!
+EPISODE:  48
+
+
+GOAL REACHED!
+EPISODE:  49
+
+
+GOAL REACHED!
+EPISODE:  50
+
+
+GOAL REACHED!
+Episode:  50  | Episode Length:  23358  | Episode Return:  -1100.7362463797808  | Loss:  119.78480529785156
+
+
+Average Return (last  10  episodes):  -1032.3281293582572
+Average Loss (last  10  episodes):  -166.8497573852539
+
+
+EPISODE:  51
+
+
+GOAL REACHED!
+EPISODE:  52
+
+
+GOAL REACHED!
+EPISODE:  53
+
+
+EPISODE:  54
+
+
+GOAL REACHED!
+EPISODE:  55
+
+
+GOAL REACHED!
+EPISODE:  56
+
+
+GOAL REACHED!
+EPISODE:  57
+
+
+EPISODE:  58
+
+
+GOAL REACHED!
+EPISODE:  59
+
+
+EPISODE:  60
+
+
+Episode:  60  | Episode Length:  40000  | Episode Return:  -407.50658677145543  | Loss:  170.08737182617188
+
+
+Average Return (last  10  episodes):  -728.7578582484281
+Average Loss (last  10  episodes):  -84.40848808288574
+
+
+EPISODE:  61
+
+
+GOAL REACHED!
+EPISODE:  62
+
+
+EPISODE:  63
+
+
+GOAL REACHED!
+EPISODE:  64
+
+
+GOAL REACHED!
+EPISODE:  65
+
+
+GOAL REACHED!
+EPISODE:  66
+
+
+GOAL REACHED!
+EPISODE:  67
+
+
+GOAL REACHED!
+EPISODE:  68
+
+
+EPISODE:  69
+
+
+GOAL REACHED!
+EPISODE:  70
+
+
+GOAL REACHED!
+Episode:  70  | Episode Length:  30385  | Episode Return:  -909.5572788645416  | Loss:  9.359542846679688
+
+
+Average Return (last  10  episodes):  -651.2498119517358
+Average Loss (last  10  episodes):  48.59845600128174
+
+
+EPISODE:  71
+
+
+GOAL REACHED!
+EPISODE:  72
+
+
+EPISODE:  73
+
+
+GOAL REACHED!
+EPISODE:  74
+
+
+EPISODE:  75
+
+
+EPISODE:  76
+
+
+GOAL REACHED!
+EPISODE:  77
+
+
+EPISODE:  78
+
+
+EPISODE:  79
+
+
+EPISODE:  80
+
+
+Episode:  80  | Episode Length:  40000  | Episode Return:  -726.0869206787594  | Loss:  121.06344604492188
+
+
+Average Return (last  10  episodes):  -745.0821051155583
+Average Loss (last  10  episodes):  6.28698844909668
+
+
+EPISODE:  81
+
+
+GOAL REACHED!
+EPISODE:  82
+
+
+EPISODE:  83
+
+
+EPISODE:  84
+
+
+EPISODE:  85
+
+
+EPISODE:  86
+
+
+GOAL REACHED!
+EPISODE:  87
+
+
+GOAL REACHED!
+EPISODE:  88
+
+
+GOAL REACHED!
+EPISODE:  89
+
+
+EPISODE:  90
+
+
+GOAL REACHED!
+Episode:  90  | Episode Length:  16694  | Episode Return:  -1083.406715093715  | Loss:  -45.61442565917969
+
+
+Average Return (last  10  episodes):  -793.314982494555
+Average Loss (last  10  episodes):  -81.70247974395753
+
+
+EPISODE:  91
+
+
+EPISODE:  92
+
+
+GOAL REACHED!
+EPISODE:  93
+
+
+GOAL REACHED!
+EPISODE:  94
+
+
+EPISODE:  95
+
+
+EPISODE:  96
+
+
+GOAL REACHED!
+EPISODE:  97
+
+
+EPISODE:  98
+
+
+EPISODE:  99
+
+
+GOAL REACHED!
+EPISODE:  100
+
+
+Episode:  100  | Episode Length:  40000  | Episode Return:  -291.0998834926661  | Loss:  -8.779258728027344
+
+
+Average Return (last  10  episodes):  -786.0908250527591
+Average Loss (last  10  episodes):  -49.31627206802368
+
+
+EPISODE:  101
+
+
+EPISODE:  102
+
+
+GOAL REACHED!
+EPISODE:  103
+
+
+GOAL REACHED!
+EPISODE:  104
+
+
+GOAL REACHED!
+EPISODE:  105
+
+
+EPISODE:  106
+
+
+EPISODE:  107
+
+
+GOAL REACHED!
+EPISODE:  108
+
+
+GOAL REACHED!
+EPISODE:  109
+
+
+EPISODE:  110
+
+
+Episode:  110  | Episode Length:  40000  | Episode Return:  -716.8693900134215  | Loss:  -99.61882019042969
+
+
+Average Return (last  10  episodes):  -764.0773190225707
+Average Loss (last  10  episodes):  -37.178397274017335
+
+
+EPISODE:  111
+
+
+EPISODE:  112
+
+
+EPISODE:  113
+
+
+GOAL REACHED!
+EPISODE:  114
+
+
+EPISODE:  115
+
+
+EPISODE:  116
+
+
+EPISODE:  117
+
+
+EPISODE:  118
+
+
+EPISODE:  119
+
+
+EPISODE:  120
+
+
+GOAL REACHED!
+Episode:  120  | Episode Length:  22954  | Episode Return:  -724.3293892672498  | Loss:  -8.301607131958008
+
+
+Average Return (last  10  episodes):  -764.0628743853937
+Average Loss (last  10  episodes):  -102.7213641166687
+
+
+EPISODE:  121
+
+
+EPISODE:  122
+
+
+GOAL REACHED!
+EPISODE:  123
+
+
+GOAL REACHED!
+EPISODE:  124
+
+
+EPISODE:  125
+
+
+EPISODE:  126
+
+
+GOAL REACHED!
+EPISODE:  127
+
+
+GOAL REACHED!
+EPISODE:  128
+
+
+GOAL REACHED!
+EPISODE:  129
+
+
+EPISODE:  130
+
+
+GOAL REACHED!
+Episode:  130  | Episode Length:  7394  | Episode Return:  -567.04488190088  | Loss:  -2.1898860931396484
+
+
+Average Return (last  10  episodes):  -734.7059360852089
+Average Loss (last  10  episodes):  -95.12120580673218
+
+
+EPISODE:  131
+
+
+GOAL REACHED!
+EPISODE:  132
+
+
+GOAL REACHED!
+EPISODE:  133
+
+
+GOAL REACHED!
+EPISODE:  134
+
+
+EPISODE:  135
+
+
+GOAL REACHED!
+EPISODE:  136
+
+
+GOAL REACHED!
+EPISODE:  137
+
+
+GOAL REACHED!
+EPISODE:  138
+
+
+GOAL REACHED!
+EPISODE:  139
+
+
+GOAL REACHED!
+EPISODE:  140
+
+
+Episode:  140  | Episode Length:  40000  | Episode Return:  -221.60263742295268  | Loss:  219.93695068359375
+
+
+Average Return (last  10  episodes):  -491.0254432009656
+Average Loss (last  10  episodes):  23.12062816619873
+
+
+EPISODE:  141
+
+
+GOAL REACHED!
+EPISODE:  142
+
+
+GOAL REACHED!
+EPISODE:  143
+
+
+GOAL REACHED!
+EPISODE:  144
+
+
+EPISODE:  145
+
+
+EPISODE:  146
+
+
+EPISODE:  147
+
+
+EPISODE:  148
+
+
+EPISODE:  149
+
+
+EPISODE:  150
+
+
+Episode:  150  | Episode Length:  40000  | Episode Return:  -971.4441391798949  | Loss:  -423.61962890625
+
+
+Average Return (last  10  episodes):  -400.4246031562209
+Average Loss (last  10  episodes):  69.37246189117431
+
+
+EPISODE:  151
+
+
+EPISODE:  152
+
+
+EPISODE:  153
+
+
+EPISODE:  154
+
+
+GOAL REACHED!
+EPISODE:  155
+
+
+GOAL REACHED!
+EPISODE:  156
+
+
+GOAL REACHED!
+EPISODE:  157
+
+
+EPISODE:  158
+
+
+EPISODE:  159
+
+
+GOAL REACHED!
+EPISODE:  160
+
+
+Episode:  160  | Episode Length:  40000  | Episode Return:  -89.4719330117523  | Loss:  -57.03525924682617
+
+
+Average Return (last  10  episodes):  -527.029666298946
+Average Loss (last  10  episodes):  -43.51551055908203
+
+
+EPISODE:  161
+
+
+GOAL REACHED!
+EPISODE:  162
+
+
+GOAL REACHED!
+EPISODE:  163
+
+
+EPISODE:  164
+
+
+EPISODE:  165
+
+
+GOAL REACHED!
+EPISODE:  166
+
+
+GOAL REACHED!
+EPISODE:  167
+
+
+EPISODE:  168
+
+
+EPISODE:  169
+
+
+GOAL REACHED!
+EPISODE:  170
+
+
+Episode:  170  | Episode Length:  40000  | Episode Return:  -469.78279822513923  | Loss:  377.34033203125
+
+
+Average Return (last  10  episodes):  -367.1597846544763
+Average Loss (last  10  episodes):  -4.156113243103027
+
+
+EPISODE:  171
+
+
+GOAL REACHED!
+EPISODE:  172
+
+
+EPISODE:  173
+
+
+EPISODE:  174
+
+
+EPISODE:  175
+
+
+EPISODE:  176
+
+
+EPISODE:  177
+
+
+EPISODE:  178
+
+
+EPISODE:  179
+
+
+EPISODE:  180
+
+
+GOAL REACHED!
+Episode:  180  | Episode Length:  15008  | Episode Return:  -504.50298327577445  | Loss:  113.52198028564453
+
+
+Average Return (last  10  episodes):  -365.4319906051967
+Average Loss (last  10  episodes):  61.012777709960936
+
+
+EPISODE:  181
+
+
+GOAL REACHED!
+EPISODE:  182
+
+
+EPISODE:  183
+
+
+EPISODE:  184
+
+
+EPISODE:  185
+
+
+EPISODE:  186
+
+
+EPISODE:  187
+
+
+EPISODE:  188
+
+
+EPISODE:  189
+
+
+GOAL REACHED!
+EPISODE:  190
+
+
+Episode:  190  | Episode Length:  40000  | Episode Return:  -578.3516611530146  | Loss:  135.23095703125
+
+
+Average Return (last  10  episodes):  
